@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scanner QR - Validation d'événements - JNTOULON 2025</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
+    <script src="https://unpkg.com/@supabase/supabase-js@2.39.0/dist/umd/supabase.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Scanner QR - Validation d'événements- JNTOULON 2025</h1>
+            <div class="status-indicator">
+                <span id="connectionStatus" class="status status--info">Connexion...</span>
+            </div>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-button active" data-tab="scanner">Scanner QR</button>
+            <button class="tab-button" data-tab="recherche">Recherche ID</button>
+            <button class="tab-button" data-tab="statistiques">Statistiques</button>
+            <!-- <button class="tab-button" data-tab="tests">Tests</button> -->
+        </nav>
+
+        <main class="tab-content">
+            <!-- Onglet Scanner QR -->
+            <div id="scanner" class="tab-panel active">
+                <div class="card">
+                    <div class="card__body">
+                        <h2>Scanner QR Code</h2>
+                        <div class="scanner-controls">
+                            <button id="startScan" class="btn btn--primary">Démarrer scan</button>
+                            <button id="stopScan" class="btn btn--secondary hidden">Arrêter scan</button>
+                        </div>
+                        <div id="qr-reader" class="qr-reader"></div>
+                        <div class="upload-section">
+                            <label for="qr-file-input" class="btn btn--outline">
+                                Charger une image
+                                <input type="file" id="qr-file-input" accept="image/*" style="display: none;">
+                            </label>
+                        </div>
+                        <div id="scan-result" class="scan-result hidden"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Onglet Recherche ID -->
+            <div id="recherche" class="tab-panel">
+                <div class="card">
+                    <div class="card__body">
+                        <h2>Recherche par ID</h2>
+                        <div class="form-group">
+                            <label for="searchId" class="form-label">Identifiant participant</label>
+                            <input type="text" id="searchId" class="form-control" placeholder="Entrez l'ID (ex: 1208041C)">
+                        </div>
+                        <button id="searchBtn" class="btn btn--primary">Rechercher</button>
+                        <div id="search-result" class="search-result hidden"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Onglet Statistiques -->
+            <div id="statistiques" class="tab-panel">
+                
+                <div class="card">
+                    <div class="card__body">
+                        <h3>Statistiques par événement</h3>
+                        <div id="eventStats" class="event-stats"></div>
+                    </div>
+                </div>
+			    <div class="stats-grid">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>Total Validations</h3>
+                            <div class="stat-number" id="totalValidations">0</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>Total Invalidations</h3>
+                            <div class="stat-number" id="totalInvalidations">0</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>Taux de Validation</h3>
+                            <div class="stat-number" id="validationRate">0%</div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+          <!--   onglet test-->
+            <div id="tests" class="tab-panel">
+                <div class="card">
+                    <div class="card__body">
+                        <h2>Tests d'intégration</h2>
+                        <div class="test-section">
+                            <h3>Test avec IDs prédéfinis</h3>
+                            <div class="test-buttons">
+                                <button class="btn btn--outline test-id-btn" data-id="1208041C">Test 1208041C</button>
+                                <button class="btn btn--outline test-id-btn" data-id="A6569C33">Test A6569C33</button>
+                                <button class="btn btn--outline test-id-btn" data-id="700AEC4A">Test 700AEC4A</button>
+                                <button class="btn btn--outline test-id-btn" data-id="3BA1AAF6">Test 3BA1AAF6</button>
+                                <button class="btn btn--outline test-id-btn" data-id="CC3F0907">Test CC3F0907</button>
+                            </div>
+                        </div>
+                        <div class="test-section">
+                            <h3>Test connexion Supabase</h3>
+                            <button id="testConnection" class="btn btn--primary">Tester connexion</button>
+                            <div id="connectionTest" class="test-result hidden"></div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+			
+        </main>
+
+        <!-- Zone d'affichage des participants -->
+        <div id="participantDisplay" class="participant-display hidden">
+            <div class="card">
+                <div class="card__body">
+                    <div class="participant-info">
+                        <h2 id="participantName"></h2>
+                        <p id="participantRegion"></p>
+                    </div>
+                    <div class="events-section">
+                        <h3>Événements</h3>
+                        <div id="eventsList" class="events-list"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+	<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="app.js"></script>
+</body>
+</html>
