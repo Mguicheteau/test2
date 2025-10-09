@@ -5,6 +5,42 @@ const participantsDatabase = {
     "region": "Inconnue",
     "evenements": [
       {
+        "nom": "Histoire en musique Enfant",
+        "horaire": "Samedi 20h30"
+      },
+      {
+        "nom": "Histoire en musique Adulte",
+        "horaire": "Samedi 20h30"
+      },
+      {
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Repas APMEP",
+        "horaire": "Lundi midi"
+      },
+      {
+        "nom": "Repas APMEP",
+        "horaire": "Mardi midi"
+      },
+      {
+        "nom": "Découverte ville",
+        "horaire": "Dimanche 9h15"
+      },
+      {
+        "nom": "Visite Rade Enfant",
+        "horaire": "Dimanche 14h45"
+      },
+      {
+        "nom": "Visite Rade Adulte",
+        "horaire": "Dimanche 14h45"
+      },
+      {
         "nom": "Circuit Fontaines",
         "horaire": "Lundi 9h30"
       },
@@ -362,12 +398,40 @@ const participantsDatabase = {
     "region": "Bourgogne",
     "evenements": [
       {
-        "nom": "Repas APMEP",
-        "horaire": "Mardi midi"
+        "nom": "Histoire en musique Adulte",
+        "horaire": "Samedi 20h30"
       },
       {
-        "nom": "Visite Rade Adulte",
-        "horaire": "Mardi 13h30"
+        "nom": "Histoire en musique Adulte",
+        "horaire": "Samedi 20h30"
+      },
+      {
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Repas APMEP",
+        "horaire": "Lundi midi"
+      },
+      {
+        "nom": "Repas APMEP",
+        "horaire": "Lundi midi"
+      },
+      {
+        "nom": "Repas APMEP",
+        "horaire": "Mardi midi"
       },
       {
         "nom": "Visite Rade Adulte",
@@ -553,6 +617,42 @@ const participantsDatabase = {
     "nom": "Participant D04FF2DA",
     "region": "Strasbourg",
     "evenements": [
+      {
+        "nom": "Repas APMEP",
+        "horaire": "Lundi midi"
+      },
+      {
+        "nom": "Repas APMEP",
+        "horaire": "Mardi midi"
+      },
+      {
+        "nom": "Repas APMEP",
+        "horaire": "Mardi midi"
+      },
+      {
+        "nom": "Repas APMEP",
+        "horaire": "Mardi midi"
+      },
+      {
+        "nom": "Repas APMEP",
+        "horaire": "Mardi midi"
+      },
+      {
+        "nom": "Repas APMEP",
+        "horaire": "Mardi midi"
+      },
+      {
+        "nom": "Visite Rade Enfant",
+        "horaire": "Dimanche 14h45"
+      },
+      {
+        "nom": "Visite Rade Adulte",
+        "horaire": "Dimanche 14h45"
+      },
+      {
+        "nom": "Visite Rade Adulte",
+        "horaire": "Dimanche 14h45"
+      },
       {
         "nom": "Conférence L1-01",
         "horaire": "Lundi 8h30"
