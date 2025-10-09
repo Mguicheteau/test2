@@ -2297,8 +2297,8 @@ function calculateStatistics() {
 		if (event.nom && event.nom.toLowerCase().includes("repas") && event.horaire) {
 			eventName = event.nom + " (" + event.horaire + ")";
 		}
-		if (!stats.eventStats[event.nom]) {
-			stats.eventStats[event.nom] = {
+		if (!stats.eventStats[eventName]) {
+			stats.eventStats[eventName] = {
 			validated: 0,
 			invalidated: 0,
 			none: 0
@@ -2306,7 +2306,7 @@ function calculateStatistics() {
       }
 
       const status = getEventStatus(participantId, index);
-      stats.eventStats[event.nom][status]++;
+      stats.eventStats[eventName][status]++;
 	 
     });
   });
@@ -2395,3 +2395,4 @@ window.addEventListener('beforeunload', () => {
     realtimeChannel.unsubscribe();
   }
 });
+
