@@ -1,49 +1,7 @@
 // Base de données intégrée des participants (anonymisée)
 const participantsDatabase = {
-  "1CC892B8": {
-    "nom": "Participant 1CC892B8",
-    "region": "Inconnue",
-    "evenements": [
-      {
-        "nom": "Histoire en musique Enfant",
-        "horaire": "Samedi 20h30"
-      },
-      {
-        "nom": "Histoire en musique Adulte",
-        "horaire": "Samedi 20h30"
-      },
-      {
-        "nom": "Repas APMEP",
-        "horaire": "Dimanche midi"
-      },
-      {
-        "nom": "Repas Festif",
-        "horaire": "Lundi 19h30"
-      },
-      {
-        "nom": "Repas APMEP",
-        "horaire": "Lundi midi"
-      },
-      {
-        "nom": "Repas APMEP",
-        "horaire": "Mardi midi"
-      },
-      {
-        "nom": "Découverte ville",
-        "horaire": "Dimanche 9h15"
-      },
-      {
-        "nom": "Visite Rade Enfant",
-        "horaire": "Dimanche 14h45"
-      },
-      {
-        "nom": "Visite Rade Adulte",
-        "horaire": "Dimanche 14h45"
-      }
-    ]
-  },
-  "746121D6": {
-    "nom": "Participant 746121D6",
+  "5ACD2553": {
+    "nom": "Participant 5ACD2553",
     "region": "Inconnue",
     "evenements": [
       {
@@ -80,8 +38,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "501B7467": {
-    "nom": "Participant 501B7467",
+  "4C513D42": {
+    "nom": "Participant 4C513D42",
     "region": "Strasbourg",
     "evenements": [
       {
@@ -90,18 +48,18 @@ const participantsDatabase = {
       }
     ]
   },
-  "4DABD296": {
-    "nom": "Participant 4DABD296",
+  "0D082DD8": {
+    "nom": "Participant 0D082DD8",
     "region": "Strasbourg",
     "evenements": []
   },
-  "AD98E74B": {
-    "nom": "Participant AD98E74B",
+  "A50D6048": {
+    "nom": "Participant A50D6048",
     "region": "Strasbourg",
     "evenements": []
   },
-  "508A733A": {
-    "nom": "Participant 508A733A",
+  "9F1EE7FD": {
+    "nom": "Participant 9F1EE7FD",
     "region": "Inconnue",
     "evenements": [
       {
@@ -126,8 +84,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "57BDDEF3": {
-    "nom": "Participant 57BDDEF3",
+  "C4E54827": {
+    "nom": "Participant C4E54827",
     "region": "Ile-de-France",
     "evenements": [
       {
@@ -148,8 +106,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "79661910": {
-    "nom": "Participant 79661910",
+  "69F6F1A6": {
+    "nom": "Participant 69F6F1A6",
     "region": "Nice-Corse",
     "evenements": [
       {
@@ -162,13 +120,13 @@ const participantsDatabase = {
       }
     ]
   },
-  "FEB6ABA7": {
-    "nom": "Participant FEB6ABA7",
+  "8557E5C1": {
+    "nom": "Participant 8557E5C1",
     "region": "Strasbourg",
     "evenements": []
   },
-  "3A2319F6": {
-    "nom": "Participant 3A2319F6",
+  "F33369FF": {
+    "nom": "Participant F33369FF",
     "region": "Toulouse",
     "evenements": [
       {
@@ -181,8 +139,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "D6FCBC50": {
-    "nom": "Participant D6FCBC50",
+  "9CEE997A": {
+    "nom": "Participant 9CEE997A",
     "region": "Inconnue",
     "evenements": [
       {
@@ -203,13 +161,13 @@ const participantsDatabase = {
       }
     ]
   },
-  "925534E4": {
-    "nom": "Participant 925534E4",
+  "807C4B42": {
+    "nom": "Participant 807C4B42",
     "region": "Ile-de-France",
     "evenements": []
   },
-  "6DD05E0D": {
-    "nom": "Participant 6DD05E0D",
+  "5E0E0C3D": {
+    "nom": "Participant 5E0E0C3D",
     "region": "Montpellier",
     "evenements": [
       {
@@ -222,8 +180,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "7C40C873": {
-    "nom": "Participant 7C40C873",
+  "9A2E585F": {
+    "nom": "Participant 9A2E585F",
     "region": "Montpellier",
     "evenements": [
       {
@@ -236,8 +194,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "9B5EF5E8": {
-    "nom": "Participant 9B5EF5E8",
+  "FCC8F114": {
+    "nom": "Participant FCC8F114",
     "region": "Grenoble",
     "evenements": [
       {
@@ -258,13 +216,13 @@ const participantsDatabase = {
       }
     ]
   },
-  "82BC7799": {
-    "nom": "Participant 82BC7799",
+  "04DDDE57": {
+    "nom": "Participant 04DDDE57",
     "region": "Ile-de-France",
     "evenements": []
   },
-  "29DED163": {
-    "nom": "Participant 29DED163",
+  "275138CC": {
+    "nom": "Participant 275138CC",
     "region": "Haute-Normandie",
     "evenements": [
       {
@@ -285,8 +243,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "DD2ADF4E": {
-    "nom": "Participant DD2ADF4E",
+  "172C1233": {
+    "nom": "Participant 172C1233",
     "region": "Grenoble",
     "evenements": [
       {
@@ -319,13 +277,13 @@ const participantsDatabase = {
       }
     ]
   },
-  "4E46AC0A": {
-    "nom": "Participant 4E46AC0A",
+  "BD6122AC": {
+    "nom": "Participant BD6122AC",
     "region": "Ile-de-France",
     "evenements": []
   },
-  "BF06A4D3": {
-    "nom": "Participant BF06A4D3",
+  "19708224": {
+    "nom": "Participant 19708224",
     "region": "Toulouse",
     "evenements": [
       {
@@ -338,8 +296,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "87E15B57": {
-    "nom": "Participant 87E15B57",
+  "DBA020BA": {
+    "nom": "Participant DBA020BA",
     "region": "Aix-Marseille",
     "evenements": [
       {
@@ -348,8 +306,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "7B9EFF85": {
-    "nom": "Participant 7B9EFF85",
+  "D4D0C58E": {
+    "nom": "Participant D4D0C58E",
     "region": "Aix-Marseille",
     "evenements": [
       {
@@ -366,13 +324,13 @@ const participantsDatabase = {
       }
     ]
   },
-  "C1B30091": {
-    "nom": "Participant C1B30091",
+  "E965CEFA": {
+    "nom": "Participant E965CEFA",
     "region": "Poitou-Charentes",
     "evenements": []
   },
-  "AE3E692F": {
-    "nom": "Participant AE3E692F",
+  "1B38F994": {
+    "nom": "Participant 1B38F994",
     "region": "Inconnue",
     "evenements": [
       {
@@ -381,8 +339,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "88CD1D41": {
-    "nom": "Participant 88CD1D41",
+  "B97D0B38": {
+    "nom": "Participant B97D0B38",
     "region": "Ile-de-France",
     "evenements": [
       {
@@ -399,50 +357,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "86836FA3": {
-    "nom": "Participant 86836FA3",
-    "region": "Bourgogne",
-    "evenements": [
-      {
-        "nom": "Histoire en musique Adulte",
-        "horaire": "Samedi 20h30"
-      },
-      {
-        "nom": "Histoire en musique Adulte",
-        "horaire": "Samedi 20h30"
-      },
-      {
-        "nom": "Repas APMEP",
-        "horaire": "Dimanche midi"
-      },
-      {
-        "nom": "Repas APMEP",
-        "horaire": "Dimanche midi"
-      },
-      {
-        "nom": "Repas Festif",
-        "horaire": "Lundi 19h30"
-      },
-      {
-        "nom": "Repas Festif",
-        "horaire": "Lundi 19h30"
-      },
-      {
-        "nom": "Repas APMEP",
-        "horaire": "Lundi midi"
-      },
-      {
-        "nom": "Repas APMEP",
-        "horaire": "Lundi midi"
-      },
-      {
-        "nom": "Repas APMEP",
-        "horaire": "Mardi midi"
-      }
-    ]
-  },
-  "EE3FB523": {
-    "nom": "Participant EE3FB523",
+  "293DF7E8": {
+    "nom": "Participant 293DF7E8",
     "region": "Bourgogne",
     "evenements": [
       {
@@ -463,8 +379,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "2B07BDB8": {
-    "nom": "Participant 2B07BDB8",
+  "8F1A6D71": {
+    "nom": "Participant 8F1A6D71",
     "region": "Bourgogne",
     "evenements": [
       {
@@ -477,8 +393,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "00119755": {
-    "nom": "Participant 00119755",
+  "9E7AEEBA": {
+    "nom": "Participant 9E7AEEBA",
     "region": "Nice-Corse",
     "evenements": [
       {
@@ -499,8 +415,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "9AA7CC22": {
-    "nom": "Participant 9AA7CC22",
+  "C8A880C4": {
+    "nom": "Participant C8A880C4",
     "region": "Toulouse",
     "evenements": [
       {
@@ -533,13 +449,13 @@ const participantsDatabase = {
       }
     ]
   },
-  "33AE0272": {
-    "nom": "Participant 33AE0272",
+  "7D5FCCC3": {
+    "nom": "Participant 7D5FCCC3",
     "region": "Ile-de-France",
     "evenements": []
   },
-  "5C285658": {
-    "nom": "Participant 5C285658",
+  "978F432A": {
+    "nom": "Participant 978F432A",
     "region": "Lorraine",
     "evenements": [
       {
@@ -552,8 +468,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "B88989D9": {
-    "nom": "Participant B88989D9",
+  "6C3599FE": {
+    "nom": "Participant 6C3599FE",
     "region": "Lorraine",
     "evenements": [
       {
@@ -566,8 +482,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "8BC69788": {
-    "nom": "Participant 8BC69788",
+  "D1C73274": {
+    "nom": "Participant D1C73274",
     "region": "Poitou-Charentes",
     "evenements": [
       {
@@ -580,8 +496,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "1C170BE7": {
-    "nom": "Participant 1C170BE7",
+  "97C13ABE": {
+    "nom": "Participant 97C13ABE",
     "region": "Haute-Normandie",
     "evenements": [
       {
@@ -602,13 +518,13 @@ const participantsDatabase = {
       }
     ]
   },
-  "ADF720B4": {
-    "nom": "Participant ADF720B4",
+  "28E10008": {
+    "nom": "Participant 28E10008",
     "region": "Haute-Normandie",
     "evenements": []
   },
-  "B60F3834": {
-    "nom": "Participant B60F3834",
+  "56EF535E": {
+    "nom": "Participant 56EF535E",
     "region": "Lorraine",
     "evenements": [
       {
@@ -633,50 +549,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "64AA5017": {
-    "nom": "Participant 64AA5017",
-    "region": "Strasbourg",
-    "evenements": [
-      {
-        "nom": "Repas APMEP",
-        "horaire": "Lundi midi"
-      },
-      {
-        "nom": "Repas APMEP",
-        "horaire": "Mardi midi"
-      },
-      {
-        "nom": "Repas APMEP",
-        "horaire": "Mardi midi"
-      },
-      {
-        "nom": "Repas APMEP",
-        "horaire": "Mardi midi"
-      },
-      {
-        "nom": "Repas APMEP",
-        "horaire": "Mardi midi"
-      },
-      {
-        "nom": "Repas APMEP",
-        "horaire": "Mardi midi"
-      },
-      {
-        "nom": "Visite Rade Enfant",
-        "horaire": "Dimanche 14h45"
-      },
-      {
-        "nom": "Visite Rade Adulte",
-        "horaire": "Dimanche 14h45"
-      },
-      {
-        "nom": "Visite Rade Adulte",
-        "horaire": "Dimanche 14h45"
-      }
-    ]
-  },
-  "21426680": {
-    "nom": "Participant 21426680",
+  "D04FF2DA": {
+    "nom": "Participant D04FF2DA",
     "region": "Strasbourg",
     "evenements": [
       {
@@ -685,8 +559,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "835614CF": {
-    "nom": "Participant 835614CF",
+  "C4F142DC": {
+    "nom": "Participant C4F142DC",
     "region": "Montpellier",
     "evenements": [
       {
@@ -699,8 +573,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "35363108": {
-    "nom": "Participant 35363108",
+  "140A5A0B": {
+    "nom": "Participant 140A5A0B",
     "region": "Picardie",
     "evenements": [
       {
@@ -725,8 +599,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "4B41FD2F": {
-    "nom": "Participant 4B41FD2F",
+  "E55AFBB7": {
+    "nom": "Participant E55AFBB7",
     "region": "Nice-Corse",
     "evenements": [
       {
@@ -739,8 +613,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "F3F38339": {
-    "nom": "Participant F3F38339",
+  "BA85B2F7": {
+    "nom": "Participant BA85B2F7",
     "region": "Ile-de-France",
     "evenements": [
       {
@@ -753,8 +627,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "05860070": {
-    "nom": "Participant 05860070",
+  "998B3E9E": {
+    "nom": "Participant 998B3E9E",
     "region": "Aquitaine",
     "evenements": [
       {
@@ -767,8 +641,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "3CDEA77C": {
-    "nom": "Participant 3CDEA77C",
+  "60262870": {
+    "nom": "Participant 60262870",
     "region": "Poitou-Charentes",
     "evenements": [
       {
@@ -785,8 +659,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "C63C0300": {
-    "nom": "Participant C63C0300",
+  "2860519C": {
+    "nom": "Participant 2860519C",
     "region": "Montpellier",
     "evenements": [
       {
@@ -823,13 +697,13 @@ const participantsDatabase = {
       }
     ]
   },
-  "CFB04B98": {
-    "nom": "Participant CFB04B98",
+  "B438B1FC": {
+    "nom": "Participant B438B1FC",
     "region": "Ile-de-France",
     "evenements": []
   },
-  "45E92CD4": {
-    "nom": "Participant 45E92CD4",
+  "7184A326": {
+    "nom": "Participant 7184A326",
     "region": "Centre-Val de Loire",
     "evenements": [
       {
@@ -850,8 +724,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "3F767438": {
-    "nom": "Participant 3F767438",
+  "B64F54A3": {
+    "nom": "Participant B64F54A3",
     "region": "Bretagne",
     "evenements": [
       {
@@ -892,13 +766,13 @@ const participantsDatabase = {
       }
     ]
   },
-  "03A36312": {
-    "nom": "Participant 03A36312",
+  "05309F44": {
+    "nom": "Participant 05309F44",
     "region": "BELGIQUE",
     "evenements": []
   },
-  "19773F03": {
-    "nom": "Participant 19773F03",
+  "4025AE05": {
+    "nom": "Participant 4025AE05",
     "region": "Lyon",
     "evenements": [
       {
@@ -915,8 +789,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "35198C81": {
-    "nom": "Participant 35198C81",
+  "5FA78637": {
+    "nom": "Participant 5FA78637",
     "region": "BELGIQUE",
     "evenements": [
       {
@@ -945,8 +819,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "24E87645": {
-    "nom": "Participant 24E87645",
+  "4B942B07": {
+    "nom": "Participant 4B942B07",
     "region": "Inconnue",
     "evenements": [
       {
@@ -967,8 +841,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "3F0C3389": {
-    "nom": "Participant 3F0C3389",
+  "3BE2C592": {
+    "nom": "Participant 3BE2C592",
     "region": "Nice-Corse",
     "evenements": [
       {
@@ -981,13 +855,13 @@ const participantsDatabase = {
       }
     ]
   },
-  "3B9449AA": {
-    "nom": "Participant 3B9449AA",
+  "93B33799": {
+    "nom": "Participant 93B33799",
     "region": "Ile-de-France",
     "evenements": []
   },
-  "04B64254": {
-    "nom": "Participant 04B64254",
+  "911DD4EA": {
+    "nom": "Participant 911DD4EA",
     "region": "Bourgogne",
     "evenements": [
       {
@@ -1000,13 +874,13 @@ const participantsDatabase = {
       }
     ]
   },
-  "F55DF67D": {
-    "nom": "Participant F55DF67D",
+  "F1D2BE79": {
+    "nom": "Participant F1D2BE79",
     "region": "Nice-Corse",
     "evenements": []
   },
-  "63F17E4F": {
-    "nom": "Participant 63F17E4F",
+  "0D8E235B": {
+    "nom": "Participant 0D8E235B",
     "region": "Ile-de-France",
     "evenements": [
       {
@@ -1023,8 +897,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "12955392": {
-    "nom": "Participant 12955392",
+  "84CC43B9": {
+    "nom": "Participant 84CC43B9",
     "region": "Aquitaine",
     "evenements": [
       {
@@ -1037,8 +911,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "B291EB66": {
-    "nom": "Participant B291EB66",
+  "D5923913": {
+    "nom": "Participant D5923913",
     "region": "Ile-de-France",
     "evenements": [
       {
@@ -1047,8 +921,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "A7641B73": {
-    "nom": "Participant A7641B73",
+  "DC41146F": {
+    "nom": "Participant DC41146F",
     "region": "Toulouse",
     "evenements": [
       {
@@ -1061,8 +935,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "0DEB97BF": {
-    "nom": "Participant 0DEB97BF",
+  "4E5D7EAE": {
+    "nom": "Participant 4E5D7EAE",
     "region": "Lyon",
     "evenements": [
       {
@@ -1079,8 +953,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "2FFEDAD9": {
-    "nom": "Participant 2FFEDAD9",
+  "BC29ECAF": {
+    "nom": "Participant BC29ECAF",
     "region": "Bretagne",
     "evenements": [
       {
@@ -1101,13 +975,13 @@ const participantsDatabase = {
       }
     ]
   },
-  "82983189": {
-    "nom": "Participant 82983189",
+  "C08E5BC5": {
+    "nom": "Participant C08E5BC5",
     "region": "Ile-de-France",
     "evenements": []
   },
-  "BFB97C8D": {
-    "nom": "Participant BFB97C8D",
+  "D03233C8": {
+    "nom": "Participant D03233C8",
     "region": "Haute-Normandie",
     "evenements": [
       {
@@ -1120,8 +994,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "D5F16F78": {
-    "nom": "Participant D5F16F78",
+  "CB6DD420": {
+    "nom": "Participant CB6DD420",
     "region": "Aix-Marseille",
     "evenements": [
       {
@@ -1142,8 +1016,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "136FB0D9": {
-    "nom": "Participant 136FB0D9",
+  "ED134260": {
+    "nom": "Participant ED134260",
     "region": "Nice-Corse",
     "evenements": [
       {
@@ -1152,8 +1026,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "56C99F1E": {
-    "nom": "Participant 56C99F1E",
+  "BDC25A19": {
+    "nom": "Participant BDC25A19",
     "region": "Poitou-Charentes",
     "evenements": [
       {
@@ -1166,8 +1040,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "D923F3A5": {
-    "nom": "Participant D923F3A5",
+  "79CB7B03": {
+    "nom": "Participant 79CB7B03",
     "region": "Aix-Marseille",
     "evenements": [
       {
@@ -1176,8 +1050,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "A86CDB4D": {
-    "nom": "Participant A86CDB4D",
+  "C72E753C": {
+    "nom": "Participant C72E753C",
     "region": "Grenoble",
     "evenements": [
       {
@@ -1214,8 +1088,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "4E7BE404": {
-    "nom": "Participant 4E7BE404",
+  "33A1545F": {
+    "nom": "Participant 33A1545F",
     "region": "Toulouse",
     "evenements": [
       {
@@ -1248,8 +1122,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "3AF0E3DC": {
-    "nom": "Participant 3AF0E3DC",
+  "9813AC07": {
+    "nom": "Participant 9813AC07",
     "region": "Nice-Corse",
     "evenements": [
       {
@@ -1286,18 +1160,18 @@ const participantsDatabase = {
       }
     ]
   },
-  "C8109300": {
-    "nom": "Participant C8109300",
+  "BCAFC2AA": {
+    "nom": "Participant BCAFC2AA",
     "region": "Aquitaine",
     "evenements": []
   },
-  "963C1664": {
-    "nom": "Participant 963C1664",
+  "1BC4EB05": {
+    "nom": "Participant 1BC4EB05",
     "region": "Lille",
     "evenements": []
   },
-  "C6323623": {
-    "nom": "Participant C6323623",
+  "C2AF630E": {
+    "nom": "Participant C2AF630E",
     "region": "Lorraine",
     "evenements": [
       {
@@ -1330,8 +1204,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "A0752FC5": {
-    "nom": "Participant A0752FC5",
+  "FD2825BD": {
+    "nom": "Participant FD2825BD",
     "region": "Aix-Marseille",
     "evenements": [
       {
@@ -1340,13 +1214,13 @@ const participantsDatabase = {
       }
     ]
   },
-  "FABEC489": {
-    "nom": "Participant FABEC489",
+  "C25CFB3F": {
+    "nom": "Participant C25CFB3F",
     "region": "Aix-Marseille",
     "evenements": []
   },
-  "986378A6": {
-    "nom": "Participant 986378A6",
+  "8F9A1E3F": {
+    "nom": "Participant 8F9A1E3F",
     "region": "Nice-Corse",
     "evenements": [
       {
@@ -1355,8 +1229,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "3C69A8DC": {
-    "nom": "Participant 3C69A8DC",
+  "45522949": {
+    "nom": "Participant 45522949",
     "region": "Grenoble",
     "evenements": [
       {
@@ -1373,8 +1247,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "1418CA61": {
-    "nom": "Participant 1418CA61",
+  "AE4B3DA6": {
+    "nom": "Participant AE4B3DA6",
     "region": "Nice-Corse",
     "evenements": [
       {
@@ -1387,18 +1261,18 @@ const participantsDatabase = {
       }
     ]
   },
-  "329C2467": {
-    "nom": "Participant 329C2467",
+  "558D3E86": {
+    "nom": "Participant 558D3E86",
     "region": "Ile-de-France",
     "evenements": []
   },
-  "0E8AB7FD": {
-    "nom": "Participant 0E8AB7FD",
+  "563B01B6": {
+    "nom": "Participant 563B01B6",
     "region": "Nice-Corse",
     "evenements": []
   },
-  "8FDB4FA0": {
-    "nom": "Participant 8FDB4FA0",
+  "E27CF3E0": {
+    "nom": "Participant E27CF3E0",
     "region": "Aquitaine",
     "evenements": [
       {
@@ -1419,8 +1293,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "76FAF8BF": {
-    "nom": "Participant 76FAF8BF",
+  "5DC0BC69": {
+    "nom": "Participant 5DC0BC69",
     "region": "Toulouse",
     "evenements": [
       {
@@ -1429,8 +1303,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "A091DEB1": {
-    "nom": "Participant A091DEB1",
+  "659F87B5": {
+    "nom": "Participant 659F87B5",
     "region": "Ile-de-France",
     "evenements": [
       {
@@ -1451,13 +1325,13 @@ const participantsDatabase = {
       }
     ]
   },
-  "2692280B": {
-    "nom": "Participant 2692280B",
+  "097EAD4F": {
+    "nom": "Participant 097EAD4F",
     "region": "Toulouse",
     "evenements": []
   },
-  "BAA46469": {
-    "nom": "Participant BAA46469",
+  "3DEFD357": {
+    "nom": "Participant 3DEFD357",
     "region": "Aix-Marseille",
     "evenements": [
       {
@@ -1466,8 +1340,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "4DF10315": {
-    "nom": "Participant 4DF10315",
+  "DFF53324": {
+    "nom": "Participant DFF53324",
     "region": "Centre-Val de Loire",
     "evenements": [
       {
@@ -1480,8 +1354,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "90E32CB0": {
-    "nom": "Participant 90E32CB0",
+  "6F512DE6": {
+    "nom": "Participant 6F512DE6",
     "region": "Ile-de-France",
     "evenements": [
       {
@@ -1506,8 +1380,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "9F89399C": {
-    "nom": "Participant 9F89399C",
+  "76A4D7CB": {
+    "nom": "Participant 76A4D7CB",
     "region": "Ile-de-France",
     "evenements": [
       {
@@ -1524,18 +1398,18 @@ const participantsDatabase = {
       }
     ]
   },
-  "390BCAEC": {
-    "nom": "Participant 390BCAEC",
+  "E73B56CB": {
+    "nom": "Participant E73B56CB",
     "region": "Lorraine",
     "evenements": []
   },
-  "AEF5DB19": {
-    "nom": "Participant AEF5DB19",
+  "23D59C2D": {
+    "nom": "Participant 23D59C2D",
     "region": "Nice-Corse",
     "evenements": []
   },
-  "4C19E937": {
-    "nom": "Participant 4C19E937",
+  "DD236F3A": {
+    "nom": "Participant DD236F3A",
     "region": "Ile-de-France",
     "evenements": [
       {
@@ -1548,8 +1422,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "FE9D80B0": {
-    "nom": "Participant FE9D80B0",
+  "28D8BB05": {
+    "nom": "Participant 28D8BB05",
     "region": "Strasbourg",
     "evenements": [
       {
@@ -1578,8 +1452,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "45147ECE": {
-    "nom": "Participant 45147ECE",
+  "DE0C8133": {
+    "nom": "Participant DE0C8133",
     "region": "Aix-Marseille",
     "evenements": [
       {
@@ -1588,8 +1462,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "A0A268EE": {
-    "nom": "Participant A0A268EE",
+  "8A186651": {
+    "nom": "Participant 8A186651",
     "region": "Centre-Val de Loire",
     "evenements": [
       {
@@ -1610,8 +1484,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "FA13B6A3": {
-    "nom": "Participant FA13B6A3",
+  "D298E4C5": {
+    "nom": "Participant D298E4C5",
     "region": "Strasbourg",
     "evenements": [
       {
@@ -1640,8 +1514,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "FCD99044": {
-    "nom": "Participant FCD99044",
+  "D46A95B0": {
+    "nom": "Participant D46A95B0",
     "region": "Aix-Marseille",
     "evenements": [
       {
@@ -1654,8 +1528,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "415568DA": {
-    "nom": "Participant 415568DA",
+  "5476FB42": {
+    "nom": "Participant 5476FB42",
     "region": "Ile-de-France",
     "evenements": [
       {
@@ -1664,8 +1538,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "32842A5B": {
-    "nom": "Participant 32842A5B",
+  "241C1FD9": {
+    "nom": "Participant 241C1FD9",
     "region": "Toulouse",
     "evenements": [
       {
@@ -1682,13 +1556,13 @@ const participantsDatabase = {
       }
     ]
   },
-  "101355F6": {
-    "nom": "Participant 101355F6",
+  "EA367784": {
+    "nom": "Participant EA367784",
     "region": "Nice-Corse",
     "evenements": []
   },
-  "D191D1F2": {
-    "nom": "Participant D191D1F2",
+  "7D61BD94": {
+    "nom": "Participant 7D61BD94",
     "region": "Toulouse",
     "evenements": [
       {
@@ -1697,13 +1571,13 @@ const participantsDatabase = {
       }
     ]
   },
-  "A7830250": {
-    "nom": "Participant A7830250",
+  "504B5A60": {
+    "nom": "Participant 504B5A60",
     "region": "Nice-Corse",
     "evenements": []
   },
-  "112D5584": {
-    "nom": "Participant 112D5584",
+  "3CF0489C": {
+    "nom": "Participant 3CF0489C",
     "region": "Lyon",
     "evenements": [
       {
@@ -1732,8 +1606,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "0A2107AB": {
-    "nom": "Participant 0A2107AB",
+  "9C16381A": {
+    "nom": "Participant 9C16381A",
     "region": "Lyon",
     "evenements": [
       {
@@ -1754,8 +1628,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "A6A9FB85": {
-    "nom": "Participant A6A9FB85",
+  "179A8CFC": {
+    "nom": "Participant 179A8CFC",
     "region": "Montpellier",
     "evenements": [
       {
@@ -1784,8 +1658,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "5D89C059": {
-    "nom": "Participant 5D89C059",
+  "E3326579": {
+    "nom": "Participant E3326579",
     "region": "Toulouse",
     "evenements": [
       {
@@ -1798,8 +1672,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "7DBD0D0D": {
-    "nom": "Participant 7DBD0D0D",
+  "A460A6EB": {
+    "nom": "Participant A460A6EB",
     "region": "Toulouse",
     "evenements": [
       {
@@ -1812,8 +1686,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "0AFCE495": {
-    "nom": "Participant 0AFCE495",
+  "FF69E3B5": {
+    "nom": "Participant FF69E3B5",
     "region": "Nice-Corse",
     "evenements": [
       {
@@ -1822,8 +1696,8 @@ const participantsDatabase = {
       }
     ]
   },
-  "1972B30D": {
-    "nom": "Participant 1972B30D",
+  "374ADAC7": {
+    "nom": "Participant 374ADAC7",
     "region": "Grenoble",
     "evenements": []
   }
@@ -2265,6 +2139,7 @@ function updateStatistics() {
   displayEventStatistics(stats.eventStats);
 }
 
+
 function calculateStatistics() {
   const stats = {
     totalValidations: 0,
@@ -2307,7 +2182,7 @@ function calculateStatistics() {
 
       const status = getEventStatus(participantId, index);
       stats.eventStats[eventName][status]++;
-	 
+
     });
   });
 
@@ -2341,6 +2216,7 @@ function displayEventStatistics(eventStats) {
         <div class="progress-fill" style="width: ${validationRate}%"></div>
       </div>
     `;
+
     eventStatsDiv.appendChild(statDiv);
   });
 }
@@ -2395,4 +2271,3 @@ window.addEventListener('beforeunload', () => {
     realtimeChannel.unsubscribe();
   }
 });
-
