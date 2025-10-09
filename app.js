@@ -2292,16 +2292,22 @@ function calculateStatistics() {
   Object.keys(participantsDatabase).forEach(participantId => {
     const participant = participantsDatabase[participantId];
     participant.evenements.forEach((event, index) => {
-      if (!stats.eventStats[event.nom]) {
-        stats.eventStats[event.nom] = {
-          validated: 0,
-          invalidated: 0,
-          none: 0
-        };
+	  // Si c'est un repas, on forme un nom unique "Repas APMEP (Lundi midi)"
+		let eventName = event.nom;
+		if (event.nom && event.nom.toLowerCase().includes("repas") && event.horaire) {
+			eventName = event.nom + " (" + event.horaire + ")";
+		}
+		if (!stats.eventStats[event.nom]) {
+			stats.eventStats[event.nom] = {
+			validated: 0,
+			invalidated: 0,
+			none: 0
+			};
       }
 
       const status = getEventStatus(participantId, index);
       stats.eventStats[event.nom][status]++;
+	 
     });
   });
 
@@ -2335,7 +2341,6 @@ function displayEventStatistics(eventStats) {
         <div class="progress-fill" style="width: ${validationRate}%"></div>
       </div>
     `;
-
     eventStatsDiv.appendChild(statDiv);
   });
 }
