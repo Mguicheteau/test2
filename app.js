@@ -1,11405 +1,9860 @@
 // Base de données intégrée des participants (anonymisée)
 const participantsDatabase = {
-
   "8557E5C1": {
-    "id": "8557E5C1",
-    "name": "Participant 8557E5C1",
+    "nom": "Participant 8557E5C1",
     "region": "Strasbourg",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "6A4338C9": {
-    "id": "6A4338C9",
-    "name": "Participant 6A4338C9",
+    "nom": "Participant 6A4338C9",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "80783D05": {
-    "id": "80783D05",
-    "name": "Participant 80783D05",
+    "nom": "Participant 80783D05",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "C6D5E73F": {
-    "id": "C6D5E73F",
-    "name": "Participant C6D5E73F",
+    "nom": "Participant C6D5E73F",
     "region": "ALGERIE",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Enfant",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "FC68AED2": {
-    "id": "FC68AED2",
-    "name": "Participant FC68AED2",
+    "nom": "Participant FC68AED2",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Visite Rade Enfant",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "47C3D4FB": {
-    "id": "47C3D4FB",
-    "name": "Participant 47C3D4FB",
+    "nom": "Participant 47C3D4FB",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "3010B2E3": {
-    "id": "3010B2E3",
-    "name": "Participant 3010B2E3",
+    "nom": "Participant 3010B2E3",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "38E9E022": {
-    "id": "38E9E022",
-    "name": "Participant 38E9E022",
+    "nom": "Participant 38E9E022",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "C24EECDF": {
-    "id": "C24EECDF",
-    "name": "Participant C24EECDF",
+    "nom": "Participant C24EECDF",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "6C1CC106": {
-    "id": "6C1CC106",
-    "name": "Participant 6C1CC106",
+    "nom": "Participant 6C1CC106",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "E5FCCEE5": {
-    "id": "E5FCCEE5",
-    "name": "Participant E5FCCEE5",
+    "nom": "Participant E5FCCEE5",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D73ADE2A": {
-    "id": "D73ADE2A",
-    "name": "Participant D73ADE2A",
+    "nom": "Participant D73ADE2A",
     "region": "Haute-Normandie",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "4027C6C7": {
-    "id": "4027C6C7",
-    "name": "Participant 4027C6C7",
+    "nom": "Participant 4027C6C7",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "4BEC62CC": {
-    "id": "4BEC62CC",
-    "name": "Participant 4BEC62CC",
-    "region": "Inconnue",
-    "events": []
-  },
-  "98B27F1A": {
-    "id": "98B27F1A",
-    "name": "Participant 98B27F1A",
+    "nom": "Participant 4BEC62CC",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
+  },
+  "98B27F1A": {
+    "nom": "Participant 98B27F1A",
+    "region": "Nice-Corse",
+    "evenements": [
+      {
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "AD6E5B08": {
-    "id": "AD6E5B08",
-    "name": "Participant AD6E5B08",
+    "nom": "Participant AD6E5B08",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "9ABE7905": {
-    "id": "9ABE7905",
-    "name": "Participant 9ABE7905",
+    "nom": "Participant 9ABE7905",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "19A267DA": {
-    "id": "19A267DA",
-    "name": "Participant 19A267DA",
+    "nom": "Participant 19A267DA",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "F8067BC6": {
-    "id": "F8067BC6",
-    "name": "Participant F8067BC6",
+    "nom": "Participant F8067BC6",
     "region": "Montpellier",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "F4DEFBEF": {
-    "id": "F4DEFBEF",
-    "name": "Participant F4DEFBEF",
+    "nom": "Participant F4DEFBEF",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "F06D4197": {
-    "id": "F06D4197",
-    "name": "Participant F06D4197",
+    "nom": "Participant F06D4197",
     "region": "Poitou-Charentes",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "184312BB": {
-    "id": "184312BB",
-    "name": "Participant 184312BB",
+    "nom": "Participant 184312BB",
     "region": "Bureau National",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "6D697AA5": {
-    "id": "6D697AA5",
-    "name": "Participant 6D697AA5",
+    "nom": "Participant 6D697AA5",
     "region": "BELGIQUE",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "17D2C3E0": {
-    "id": "17D2C3E0",
-    "name": "Participant 17D2C3E0",
+    "nom": "Participant 17D2C3E0",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "2D995985": {
-    "id": "2D995985",
-    "name": "Participant 2D995985",
+    "nom": "Participant 2D995985",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "97A3FBFF": {
-    "id": "97A3FBFF",
-    "name": "Participant 97A3FBFF",
+    "nom": "Participant 97A3FBFF",
     "region": "Bretagne",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "E10BAA82": {
-    "id": "E10BAA82",
-    "name": "Participant E10BAA82",
+    "nom": "Participant E10BAA82",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D94CAA99": {
-    "id": "D94CAA99",
-    "name": "Participant D94CAA99",
+    "nom": "Participant D94CAA99",
     "region": "Basse-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "4BFE3FA6": {
-    "id": "4BFE3FA6",
-    "name": "Participant 4BFE3FA6",
+    "nom": "Participant 4BFE3FA6",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "A94E2D3B": {
-    "id": "A94E2D3B",
-    "name": "Participant A94E2D3B",
+    "nom": "Participant A94E2D3B",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "D9D1D44E": {
-    "id": "D9D1D44E",
-    "name": "Participant D9D1D44E",
+    "nom": "Participant D9D1D44E",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "DBA186EC": {
-    "id": "DBA186EC",
-    "name": "Participant DBA186EC",
+    "nom": "Participant DBA186EC",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D51226C9": {
-    "id": "D51226C9",
-    "name": "Participant D51226C9",
+    "nom": "Participant D51226C9",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "6E32EAFD": {
-    "id": "6E32EAFD",
-    "name": "Participant 6E32EAFD",
+    "nom": "Participant 6E32EAFD",
     "region": "BELGIQUE",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "51056500": {
-    "id": "51056500",
-    "name": "Participant 51056500",
+    "nom": "Participant 51056500",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "72F6C2BB": {
-    "id": "72F6C2BB",
-    "name": "Participant 72F6C2BB",
+    "nom": "Participant 72F6C2BB",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "77AFF087": {
-    "id": "77AFF087",
-    "name": "Participant 77AFF087",
+    "nom": "Participant 77AFF087",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "F3F7F4B1": {
-    "id": "F3F7F4B1",
-    "name": "Participant F3F7F4B1",
+    "nom": "Participant F3F7F4B1",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "6B15147B": {
-    "id": "6B15147B",
-    "name": "Participant 6B15147B",
+    "nom": "Participant 6B15147B",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "B3910D52": {
-    "id": "B3910D52",
-    "name": "Participant B3910D52",
+    "nom": "Participant B3910D52",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "866DA5A2": {
-    "id": "866DA5A2",
-    "name": "Participant 866DA5A2",
-    "region": "Aix-Marseille",
-    "events": [
+    "nom": "Participant 866DA5A2",
+    "region": "Inconnue",
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       }
     ]
   },
   "E70C4B78": {
-    "id": "E70C4B78",
-    "name": "Participant E70C4B78",
+    "nom": "Participant E70C4B78",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "74D98E6E": {
-    "id": "74D98E6E",
-    "name": "Participant 74D98E6E",
+    "nom": "Participant 74D98E6E",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "F3051066": {
-    "id": "F3051066",
-    "name": "Participant F3051066",
+    "nom": "Participant F3051066",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "4B53E2DE": {
-    "id": "4B53E2DE",
-    "name": "Participant 4B53E2DE",
-    "region": "Nice-Corse",
-    "events": [
+    "nom": "Participant 4B53E2DE",
+    "region": "Inconnue",
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      },
+      {
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       }
     ]
   },
   "374A43D2": {
-    "id": "374A43D2",
-    "name": "Participant 374A43D2",
+    "nom": "Participant 374A43D2",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "3816717A": {
-    "id": "3816717A",
-    "name": "Participant 3816717A",
+    "nom": "Participant 3816717A",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "2DFDDA82": {
-    "id": "2DFDDA82",
-    "name": "Participant 2DFDDA82",
+    "nom": "Participant 2DFDDA82",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "07E339F5": {
-    "id": "07E339F5",
-    "name": "Participant 07E339F5",
+    "nom": "Participant 07E339F5",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "07410A7C": {
-    "id": "07410A7C",
-    "name": "Participant 07410A7C",
+    "nom": "Participant 07410A7C",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "05DCA989": {
-    "id": "05DCA989",
-    "name": "Participant 05DCA989",
+    "nom": "Participant 05DCA989",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "BD13D966": {
-    "id": "BD13D966",
-    "name": "Participant BD13D966",
+    "nom": "Participant BD13D966",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "8A6EFABA": {
-    "id": "8A6EFABA",
-    "name": "Participant 8A6EFABA",
+    "nom": "Participant 8A6EFABA",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "8F9A1E3F": {
-    "id": "8F9A1E3F",
-    "name": "Participant 8F9A1E3F",
-    "region": "Nice-Corse",
-    "events": [
+    "nom": "Participant 8F9A1E3F",
+    "region": "Inconnue",
+    "evenements": [
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "682EC733": {
-    "id": "682EC733",
-    "name": "Participant 682EC733",
-    "region": "Nice-Corse",
-    "events": [
+    "nom": "Participant 682EC733",
+    "region": "Inconnue",
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       }
     ]
   },
   "CB00FEE5": {
-    "id": "CB00FEE5",
-    "name": "Participant CB00FEE5",
+    "nom": "Participant CB00FEE5",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "C28D5B54": {
-    "id": "C28D5B54",
-    "name": "Participant C28D5B54",
+    "nom": "Participant C28D5B54",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "77B93C5A": {
-    "id": "77B93C5A",
-    "name": "Participant 77B93C5A",
+    "nom": "Participant 77B93C5A",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "E4449FB9": {
-    "id": "E4449FB9",
-    "name": "Participant E4449FB9",
+    "nom": "Participant E4449FB9",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "76F8174A": {
-    "id": "76F8174A",
-    "name": "Participant 76F8174A",
+    "nom": "Participant 76F8174A",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "75A05098": {
-    "id": "75A05098",
-    "name": "Participant 75A05098",
+    "nom": "Participant 75A05098",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "FAFE112D": {
-    "id": "FAFE112D",
-    "name": "Participant FAFE112D",
+    "nom": "Participant FAFE112D",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "B475EACC": {
-    "id": "B475EACC",
-    "name": "Participant B475EACC",
+    "nom": "Participant B475EACC",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "EB4FB965": {
-    "id": "EB4FB965",
-    "name": "Participant EB4FB965",
+    "nom": "Participant EB4FB965",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "A1DAEF36": {
-    "id": "A1DAEF36",
-    "name": "Participant A1DAEF36",
+    "nom": "Participant A1DAEF36",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "374ADAC7": {
-    "id": "374ADAC7",
-    "name": "Participant 374ADAC7",
-    "region": "Grenoble",
-    "events": []
+    "nom": "Participant 374ADAC7",
+    "region": "Inconnue",
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "444484BE": {
-    "id": "444484BE",
-    "name": "Participant 444484BE",
-    "region": "Haute-Normandie",
-    "events": [
+    "nom": "Participant 444484BE",
+    "region": "Inconnue",
+    "evenements": [
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "44D402A7": {
-    "id": "44D402A7",
-    "name": "Participant 44D402A7",
+    "nom": "Participant 44D402A7",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "B3E864F6": {
-    "id": "B3E864F6",
-    "name": "Participant B3E864F6",
+    "nom": "Participant B3E864F6",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "C4A26C11": {
-    "id": "C4A26C11",
-    "name": "Participant C4A26C11",
+    "nom": "Participant C4A26C11",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "643EEA45": {
-    "id": "643EEA45",
-    "name": "Participant 643EEA45",
+    "nom": "Participant 643EEA45",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "4407E5E3": {
-    "id": "4407E5E3",
-    "name": "Participant 4407E5E3",
+    "nom": "Participant 4407E5E3",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "2C91A1E0": {
-    "id": "2C91A1E0",
-    "name": "Participant 2C91A1E0",
+    "nom": "Participant 2C91A1E0",
     "region": "FRANCE",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "9BB38FB1": {
-    "id": "9BB38FB1",
-    "name": "Participant 9BB38FB1",
+    "nom": "Participant 9BB38FB1",
     "region": "FRANCE",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "A91180E3": {
-    "id": "A91180E3",
-    "name": "Participant A91180E3",
+    "nom": "Participant A91180E3",
     "region": "FRANCE",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "5911A39E": {
-    "id": "5911A39E",
-    "name": "Participant 5911A39E",
+    "nom": "Participant 5911A39E",
     "region": "FRANCE",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "A69F187F": {
-    "id": "A69F187F",
-    "name": "Participant A69F187F",
+    "nom": "Participant A69F187F",
     "region": "FRANCE",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "85C96523": {
-    "id": "85C96523",
-    "name": "Participant 85C96523",
+    "nom": "Participant 85C96523",
     "region": "BELGIQUE",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "3DFD9DD4": {
-    "id": "3DFD9DD4",
-    "name": "Participant 3DFD9DD4",
+    "nom": "Participant 3DFD9DD4",
     "region": "FRANCE",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "EC075679": {
-    "id": "EC075679",
-    "name": "Participant EC075679",
+    "nom": "Participant EC075679",
     "region": "FRANCE",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "0AF605F0": {
-    "id": "0AF605F0",
-    "name": "Participant 0AF605F0",
+    "nom": "Participant 0AF605F0",
     "region": "FRANCE",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "CC898EBB": {
-    "id": "CC898EBB",
-    "name": "Participant CC898EBB",
+    "nom": "Participant CC898EBB",
     "region": "FRANCE",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "A7434423": {
-    "id": "A7434423",
-    "name": "Participant A7434423",
+    "nom": "Participant A7434423",
     "region": "BELGIQUE",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "3290B3A2": {
-    "id": "3290B3A2",
-    "name": "Participant 3290B3A2",
+    "nom": "Participant 3290B3A2",
     "region": "FRANCE",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "0EF20CE7": {
-    "id": "0EF20CE7",
-    "name": "Participant 0EF20CE7",
+    "nom": "Participant 0EF20CE7",
     "region": "FRANCE",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "2045FD5D": {
-    "id": "2045FD5D",
-    "name": "Participant 2045FD5D",
+    "nom": "Participant 2045FD5D",
     "region": "ALGÉRIE",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "6EF3D817": {
-    "id": "6EF3D817",
-    "name": "Participant 6EF3D817",
+    "nom": "Participant 6EF3D817",
     "region": "ALGÉRIE",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "AB330A82": {
-    "id": "AB330A82",
-    "name": "Participant AB330A82",
+    "nom": "Participant AB330A82",
     "region": "FRANCE",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "8A7942B8": {
-    "id": "8A7942B8",
-    "name": "Participant 8A7942B8",
+    "nom": "Participant 8A7942B8",
     "region": "FRANCE",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "DD15071F": {
-    "id": "DD15071F",
-    "name": "Participant DD15071F",
+    "nom": "Participant DD15071F",
     "region": "FRANCE",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "9AAF677A": {
-    "id": "9AAF677A",
-    "name": "Participant 9AAF677A",
+    "nom": "Participant 9AAF677A",
     "region": "FRANCE",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "A9F00075": {
-    "id": "A9F00075",
-    "name": "Participant A9F00075",
+    "nom": "Participant A9F00075",
     "region": "FRANCE",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "38AA6DB5": {
-    "id": "38AA6DB5",
-    "name": "Participant 38AA6DB5",
+    "nom": "Participant 38AA6DB5",
     "region": "FRANCE",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "17642C23": {
-    "id": "17642C23",
-    "name": "Participant 17642C23",
+    "nom": "Participant 17642C23",
     "region": "FRANCE",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "32E6324B": {
-    "id": "32E6324B",
-    "name": "Participant 32E6324B",
+    "nom": "Participant 32E6324B",
     "region": "FRANCE",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "C6939350": {
-    "id": "C6939350",
-    "name": "Participant C6939350",
+    "nom": "Participant C6939350",
     "region": "FRANCE",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "FC8F4A96": {
-    "id": "FC8F4A96",
-    "name": "Participant FC8F4A96",
+    "nom": "Participant FC8F4A96",
     "region": "FRANCE",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "B0A4B8E3": {
-    "id": "B0A4B8E3",
-    "name": "Participant B0A4B8E3",
+    "nom": "Participant B0A4B8E3",
     "region": "FRANCE",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "7FD34AC9": {
-    "id": "7FD34AC9",
-    "name": "Participant 7FD34AC9",
+    "nom": "Participant 7FD34AC9",
     "region": "FRANCE",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "4C513D42": {
-    "id": "4C513D42",
-    "name": "Participant 4C513D42",
+    "nom": "Participant 4C513D42",
     "region": "Strasbourg",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "0D082DD8": {
-    "id": "0D082DD8",
-    "name": "Participant 0D082DD8",
+    "nom": "Participant 0D082DD8",
     "region": "Strasbourg",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "A50D6048": {
-    "id": "A50D6048",
-    "name": "Participant A50D6048",
+    "nom": "Participant A50D6048",
     "region": "Strasbourg",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "9F1EE7FD": {
-    "id": "9F1EE7FD",
-    "name": "Participant 9F1EE7FD",
+    "nom": "Participant 9F1EE7FD",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "C4E54827": {
-    "id": "C4E54827",
-    "name": "Participant C4E54827",
+    "nom": "Participant C4E54827",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "69F6F1A6": {
-    "id": "69F6F1A6",
-    "name": "Participant 69F6F1A6",
+    "nom": "Participant 69F6F1A6",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "F33369FF": {
-    "id": "F33369FF",
-    "name": "Participant F33369FF",
+    "nom": "Participant F33369FF",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "A4BC157D": {
-    "id": "A4BC157D",
-    "name": "Participant A4BC157D",
+    "nom": "Participant A4BC157D",
     "region": "Limoges",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Lundi 9h30"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "9CEE997A": {
-    "id": "9CEE997A",
-    "name": "Participant 9CEE997A",
+    "nom": "Participant 9CEE997A",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "8CEC9A1D": {
-    "id": "8CEC9A1D",
-    "name": "Participant 8CEC9A1D",
+    "nom": "Participant 8CEC9A1D",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "807C4B42": {
-    "id": "807C4B42",
-    "name": "Participant 807C4B42",
+    "nom": "Participant 807C4B42",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "5E0E0C3D": {
-    "id": "5E0E0C3D",
-    "name": "Participant 5E0E0C3D",
+    "nom": "Participant 5E0E0C3D",
     "region": "Montpellier",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "9A2E585F": {
-    "id": "9A2E585F",
-    "name": "Participant 9A2E585F",
+    "nom": "Participant 9A2E585F",
     "region": "Montpellier",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "FCC8F114": {
-    "id": "FCC8F114",
-    "name": "Participant FCC8F114",
+    "nom": "Participant FCC8F114",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "04DDDE57": {
-    "id": "04DDDE57",
-    "name": "Participant 04DDDE57",
+    "nom": "Participant 04DDDE57",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "275138CC": {
-    "id": "275138CC",
-    "name": "Participant 275138CC",
+    "nom": "Participant 275138CC",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "44623F6B": {
-    "id": "44623F6B",
-    "name": "Participant 44623F6B",
+    "nom": "Participant 44623F6B",
     "region": "Montpellier",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Enfant",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Histoire en musique Enfant",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "172C1233": {
-    "id": "172C1233",
-    "name": "Participant 172C1233",
+    "nom": "Participant 172C1233",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Lundi 9h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BD6122AC": {
-    "id": "BD6122AC",
-    "name": "Participant BD6122AC",
+    "nom": "Participant BD6122AC",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "19708224": {
-    "id": "19708224",
-    "name": "Participant 19708224",
+    "nom": "Participant 19708224",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "DBA020BA": {
-    "id": "DBA020BA",
-    "name": "Participant DBA020BA",
+    "nom": "Participant DBA020BA",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D4D0C58E": {
-    "id": "D4D0C58E",
-    "name": "Participant D4D0C58E",
+    "nom": "Participant D4D0C58E",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E965CEFA": {
-    "id": "E965CEFA",
-    "name": "Participant E965CEFA",
+    "nom": "Participant E965CEFA",
     "region": "Poitou-Charentes",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "1B38F994": {
-    "id": "1B38F994",
-    "name": "Participant 1B38F994",
+    "nom": "Participant 1B38F994",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BEA44FD0": {
-    "id": "BEA44FD0",
-    "name": "Participant BEA44FD0",
+    "nom": "Participant BEA44FD0",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "B97D0B38": {
-    "id": "B97D0B38",
-    "name": "Participant B97D0B38",
+    "nom": "Participant B97D0B38",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "8F1A6D71": {
-    "id": "8F1A6D71",
-    "name": "Participant 8F1A6D71",
+    "nom": "Participant 8F1A6D71",
     "region": "Bourgogne",
-    "events": [
+    "evenements": [
       {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Lundi 9h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "293DF7E8": {
-    "id": "293DF7E8",
-    "name": "Participant 293DF7E8",
+    "nom": "Participant 293DF7E8",
     "region": "Bourgogne",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "9E7AEEBA": {
-    "id": "9E7AEEBA",
-    "name": "Participant 9E7AEEBA",
+    "nom": "Participant 9E7AEEBA",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "C8A880C4": {
-    "id": "C8A880C4",
-    "name": "Participant C8A880C4",
+    "nom": "Participant C8A880C4",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Enfant",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "7D5FCCC3": {
-    "id": "7D5FCCC3",
-    "name": "Participant 7D5FCCC3",
+    "nom": "Participant 7D5FCCC3",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "978F432A": {
-    "id": "978F432A",
-    "name": "Participant 978F432A",
+    "nom": "Participant 978F432A",
     "region": "Lorraine",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "6C3599FE": {
-    "id": "6C3599FE",
-    "name": "Participant 6C3599FE",
+    "nom": "Participant 6C3599FE",
     "region": "Lorraine",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D1C73274": {
-    "id": "D1C73274",
-    "name": "Participant D1C73274",
+    "nom": "Participant D1C73274",
     "region": "Poitou-Charentes",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "97C13ABE": {
-    "id": "97C13ABE",
-    "name": "Participant 97C13ABE",
+    "nom": "Participant 97C13ABE",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "28E10008": {
-    "id": "28E10008",
-    "name": "Participant 28E10008",
+    "nom": "Participant 28E10008",
     "region": "Haute-Normandie",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "56EF535E": {
-    "id": "56EF535E",
-    "name": "Participant 56EF535E",
+    "nom": "Participant 56EF535E",
     "region": "Lorraine",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D04FF2DA": {
-    "id": "D04FF2DA",
-    "name": "Participant D04FF2DA",
+    "nom": "Participant D04FF2DA",
     "region": "Strasbourg",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "C4F142DC": {
-    "id": "C4F142DC",
-    "name": "Participant C4F142DC",
+    "nom": "Participant C4F142DC",
     "region": "Montpellier",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "140A5A0B": {
-    "id": "140A5A0B",
-    "name": "Participant 140A5A0B",
+    "nom": "Participant 140A5A0B",
     "region": "Picardie",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E55AFBB7": {
-    "id": "E55AFBB7",
-    "name": "Participant E55AFBB7",
+    "nom": "Participant E55AFBB7",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BA85B2F7": {
-    "id": "BA85B2F7",
-    "name": "Participant BA85B2F7",
+    "nom": "Participant BA85B2F7",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "998B3E9E": {
-    "id": "998B3E9E",
-    "name": "Participant 998B3E9E",
+    "nom": "Participant 998B3E9E",
     "region": "Aquitaine",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "8ED2895C": {
-    "id": "8ED2895C",
-    "name": "Participant 8ED2895C",
+    "nom": "Participant 8ED2895C",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "60262870": {
-    "id": "60262870",
-    "name": "Participant 60262870",
+    "nom": "Participant 60262870",
     "region": "Poitou-Charentes",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "2860519C": {
-    "id": "2860519C",
-    "name": "Participant 2860519C",
+    "nom": "Participant 2860519C",
     "region": "Montpellier",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Enfant",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Enfant",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "B438B1FC": {
-    "id": "B438B1FC",
-    "name": "Participant B438B1FC",
+    "nom": "Participant B438B1FC",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "7F8CAB92": {
-    "id": "7F8CAB92",
-    "name": "Participant 7F8CAB92",
+    "nom": "Participant 7F8CAB92",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "EC1A342A": {
-    "id": "EC1A342A",
-    "name": "Participant EC1A342A",
+    "nom": "Participant EC1A342A",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "7184A326": {
-    "id": "7184A326",
-    "name": "Participant 7184A326",
+    "nom": "Participant 7184A326",
     "region": "Centre-Val de Loire",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "B64F54A3": {
-    "id": "B64F54A3",
-    "name": "Participant B64F54A3",
+    "nom": "Participant B64F54A3",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "05309F44": {
-    "id": "05309F44",
-    "name": "Participant 05309F44",
+    "nom": "Participant 05309F44",
     "region": "BELGIQUE",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "4025AE05": {
-    "id": "4025AE05",
-    "name": "Participant 4025AE05",
+    "nom": "Participant 4025AE05",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "5FA78637": {
-    "id": "5FA78637",
-    "name": "Participant 5FA78637",
+    "nom": "Participant 5FA78637",
     "region": "BELGIQUE",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "4B942B07": {
-    "id": "4B942B07",
-    "name": "Participant 4B942B07",
+    "nom": "Participant 4B942B07",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "93B33799": {
-    "id": "93B33799",
-    "name": "Participant 93B33799",
+    "nom": "Participant 93B33799",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "911DD4EA": {
-    "id": "911DD4EA",
-    "name": "Participant 911DD4EA",
+    "nom": "Participant 911DD4EA",
     "region": "Bourgogne",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "3BE2C592": {
-    "id": "3BE2C592",
-    "name": "Participant 3BE2C592",
+    "nom": "Participant 3BE2C592",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "F1D2BE79": {
-    "id": "F1D2BE79",
-    "name": "Participant F1D2BE79",
+    "nom": "Participant F1D2BE79",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "0D8E235B": {
-    "id": "0D8E235B",
-    "name": "Participant 0D8E235B",
+    "nom": "Participant 0D8E235B",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "84CC43B9": {
-    "id": "84CC43B9",
-    "name": "Participant 84CC43B9",
+    "nom": "Participant 84CC43B9",
     "region": "Aquitaine",
-    "events": [
+    "evenements": [
       {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D5923913": {
-    "id": "D5923913",
-    "name": "Participant D5923913",
+    "nom": "Participant D5923913",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "DC41146F": {
-    "id": "DC41146F",
-    "name": "Participant DC41146F",
+    "nom": "Participant DC41146F",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "4E5D7EAE": {
-    "id": "4E5D7EAE",
-    "name": "Participant 4E5D7EAE",
+    "nom": "Participant 4E5D7EAE",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BC29ECAF": {
-    "id": "BC29ECAF",
-    "name": "Participant BC29ECAF",
+    "nom": "Participant BC29ECAF",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "C08E5BC5": {
-    "id": "C08E5BC5",
-    "name": "Participant C08E5BC5",
+    "nom": "Participant C08E5BC5",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "D03233C8": {
-    "id": "D03233C8",
-    "name": "Participant D03233C8",
+    "nom": "Participant D03233C8",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "CB6DD420": {
-    "id": "CB6DD420",
-    "name": "Participant CB6DD420",
+    "nom": "Participant CB6DD420",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "ED134260": {
-    "id": "ED134260",
-    "name": "Participant ED134260",
+    "nom": "Participant ED134260",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BDC25A19": {
-    "id": "BDC25A19",
-    "name": "Participant BDC25A19",
+    "nom": "Participant BDC25A19",
     "region": "Poitou-Charentes",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "79CB7B03": {
-    "id": "79CB7B03",
-    "name": "Participant 79CB7B03",
+    "nom": "Participant 79CB7B03",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "C72E753C": {
-    "id": "C72E753C",
-    "name": "Participant C72E753C",
+    "nom": "Participant C72E753C",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Lundi 9h30"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "33A1545F": {
-    "id": "33A1545F",
-    "name": "Participant 33A1545F",
+    "nom": "Participant 33A1545F",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "9813AC07": {
-    "id": "9813AC07",
-    "name": "Participant 9813AC07",
+    "nom": "Participant 9813AC07",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BCAFC2AA": {
-    "id": "BCAFC2AA",
-    "name": "Participant BCAFC2AA",
+    "nom": "Participant BCAFC2AA",
     "region": "Aquitaine",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "1BC4EB05": {
-    "id": "1BC4EB05",
-    "name": "Participant 1BC4EB05",
+    "nom": "Participant 1BC4EB05",
     "region": "Lille",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "C2AF630E": {
-    "id": "C2AF630E",
-    "name": "Participant C2AF630E",
+    "nom": "Participant C2AF630E",
     "region": "Lorraine",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "FD2825BD": {
-    "id": "FD2825BD",
-    "name": "Participant FD2825BD",
+    "nom": "Participant FD2825BD",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "C25CFB3F": {
-    "id": "C25CFB3F",
-    "name": "Participant C25CFB3F",
+    "nom": "Participant C25CFB3F",
     "region": "Aix-Marseille",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "45522949": {
-    "id": "45522949",
-    "name": "Participant 45522949",
+    "nom": "Participant 45522949",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "AE4B3DA6": {
-    "id": "AE4B3DA6",
-    "name": "Participant AE4B3DA6",
+    "nom": "Participant AE4B3DA6",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "83BF427E": {
-    "id": "83BF427E",
-    "name": "Participant 83BF427E",
+    "nom": "Participant 83BF427E",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "558D3E86": {
-    "id": "558D3E86",
-    "name": "Participant 558D3E86",
+    "nom": "Participant 558D3E86",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "563B01B6": {
-    "id": "563B01B6",
-    "name": "Participant 563B01B6",
+    "nom": "Participant 563B01B6",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "E27CF3E0": {
-    "id": "E27CF3E0",
-    "name": "Participant E27CF3E0",
+    "nom": "Participant E27CF3E0",
     "region": "Vice-Présidente",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "5DC0BC69": {
-    "id": "5DC0BC69",
-    "name": "Participant 5DC0BC69",
+    "nom": "Participant 5DC0BC69",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "659F87B5": {
-    "id": "659F87B5",
-    "name": "Participant 659F87B5",
+    "nom": "Participant 659F87B5",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "097EAD4F": {
-    "id": "097EAD4F",
-    "name": "Participant 097EAD4F",
+    "nom": "Participant 097EAD4F",
     "region": "Toulouse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "3DEFD357": {
-    "id": "3DEFD357",
-    "name": "Participant 3DEFD357",
+    "nom": "Participant 3DEFD357",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "DFF53324": {
-    "id": "DFF53324",
-    "name": "Participant DFF53324",
+    "nom": "Participant DFF53324",
     "region": "Centre-Val de Loire",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "6F512DE6": {
-    "id": "6F512DE6",
-    "name": "Participant 6F512DE6",
+    "nom": "Participant 6F512DE6",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "76A4D7CB": {
-    "id": "76A4D7CB",
-    "name": "Participant 76A4D7CB",
+    "nom": "Participant 76A4D7CB",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E73B56CB": {
-    "id": "E73B56CB",
-    "name": "Participant E73B56CB",
+    "nom": "Participant E73B56CB",
     "region": "Lorraine",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "23D59C2D": {
-    "id": "23D59C2D",
-    "name": "Participant 23D59C2D",
+    "nom": "Participant 23D59C2D",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "DD236F3A": {
-    "id": "DD236F3A",
-    "name": "Participant DD236F3A",
+    "nom": "Participant DD236F3A",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "28D8BB05": {
-    "id": "28D8BB05",
-    "name": "Participant 28D8BB05",
+    "nom": "Participant 28D8BB05",
     "region": "Strasbourg",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "DE0C8133": {
-    "id": "DE0C8133",
-    "name": "Participant DE0C8133",
+    "nom": "Participant DE0C8133",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "8A186651": {
-    "id": "8A186651",
-    "name": "Participant 8A186651",
+    "nom": "Participant 8A186651",
     "region": "Centre-Val de Loire",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D298E4C5": {
-    "id": "D298E4C5",
-    "name": "Participant D298E4C5",
+    "nom": "Participant D298E4C5",
     "region": "Strasbourg",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D46A95B0": {
-    "id": "D46A95B0",
-    "name": "Participant D46A95B0",
+    "nom": "Participant D46A95B0",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "5476FB42": {
-    "id": "5476FB42",
-    "name": "Participant 5476FB42",
+    "nom": "Participant 5476FB42",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "241C1FD9": {
-    "id": "241C1FD9",
-    "name": "Participant 241C1FD9",
+    "nom": "Participant 241C1FD9",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "EA367784": {
-    "id": "EA367784",
-    "name": "Participant EA367784",
+    "nom": "Participant EA367784",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "1BDD1A54": {
-    "id": "1BDD1A54",
-    "name": "Participant 1BDD1A54",
+    "nom": "Participant 1BDD1A54",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "D22635C4": {
-    "id": "D22635C4",
-    "name": "Participant D22635C4",
+    "nom": "Participant D22635C4",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "B360F8AD": {
-    "id": "B360F8AD",
-    "name": "Participant B360F8AD",
+    "nom": "Participant B360F8AD",
     "region": "Aquitaine",
-    "events": [
+    "evenements": [
       {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "7D61BD94": {
-    "id": "7D61BD94",
-    "name": "Participant 7D61BD94",
+    "nom": "Participant 7D61BD94",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "504B5A60": {
-    "id": "504B5A60",
-    "name": "Participant 504B5A60",
+    "nom": "Participant 504B5A60",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "3CF0489C": {
-    "id": "3CF0489C",
-    "name": "Participant 3CF0489C",
+    "nom": "Participant 3CF0489C",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Jeu enquête",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "9C16381A": {
-    "id": "9C16381A",
-    "name": "Participant 9C16381A",
+    "nom": "Participant 9C16381A",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Jeu enquête",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "179A8CFC": {
-    "id": "179A8CFC",
-    "name": "Participant 179A8CFC",
+    "nom": "Participant 179A8CFC",
     "region": "Montpellier",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Lundi 9h30"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E3326579": {
-    "id": "E3326579",
-    "name": "Participant E3326579",
+    "nom": "Participant E3326579",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "A460A6EB": {
-    "id": "A460A6EB",
-    "name": "Participant A460A6EB",
+    "nom": "Participant A460A6EB",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "B54E8422": {
-    "id": "B54E8422",
-    "name": "Participant B54E8422",
+    "nom": "Participant B54E8422",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "FF69E3B5": {
-    "id": "FF69E3B5",
-    "name": "Participant FF69E3B5",
+    "nom": "Participant FF69E3B5",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "CA13A431": {
-    "id": "CA13A431",
-    "name": "Participant CA13A431",
+    "nom": "Participant CA13A431",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "326AB86A": {
-    "id": "326AB86A",
-    "name": "Participant 326AB86A",
+    "nom": "Participant 326AB86A",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "1E57C3EF": {
-    "id": "1E57C3EF",
-    "name": "Participant 1E57C3EF",
+    "nom": "Participant 1E57C3EF",
     "region": "Basse-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "1ACFAAD6": {
-    "id": "1ACFAAD6",
-    "name": "Participant 1ACFAAD6",
+    "nom": "Participant 1ACFAAD6",
     "region": "Lorraine",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "15102FC1": {
-    "id": "15102FC1",
-    "name": "Participant 15102FC1",
+    "nom": "Participant 15102FC1",
     "region": "Montpellier",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "8AC3AC14": {
-    "id": "8AC3AC14",
-    "name": "Participant 8AC3AC14",
+    "nom": "Participant 8AC3AC14",
     "region": "Poitou-Charentes",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "1EFEC3DF": {
-    "id": "1EFEC3DF",
-    "name": "Participant 1EFEC3DF",
+    "nom": "Participant 1EFEC3DF",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "0EBEADC0": {
-    "id": "0EBEADC0",
-    "name": "Participant 0EBEADC0",
+    "nom": "Participant 0EBEADC0",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "14D3AB44": {
-    "id": "14D3AB44",
-    "name": "Participant 14D3AB44",
+    "nom": "Participant 14D3AB44",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "A7A426C4": {
-    "id": "A7A426C4",
-    "name": "Participant A7A426C4",
+    "nom": "Participant A7A426C4",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "7150935F": {
-    "id": "7150935F",
-    "name": "Participant 7150935F",
+    "nom": "Participant 7150935F",
     "region": "Poitou-Charentes",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "08B72C55": {
-    "id": "08B72C55",
-    "name": "Participant 08B72C55",
+    "nom": "Participant 08B72C55",
     "region": "Poitou-Charentes",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "50567E20": {
-    "id": "50567E20",
-    "name": "Participant 50567E20",
+    "nom": "Participant 50567E20",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "CE391CCC": {
-    "id": "CE391CCC",
-    "name": "Participant CE391CCC",
+    "nom": "Participant CE391CCC",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Jeu enquête",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "16FA1CF7": {
-    "id": "16FA1CF7",
-    "name": "Participant 16FA1CF7",
+    "nom": "Participant 16FA1CF7",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "7FAAACA5": {
-    "id": "7FAAACA5",
-    "name": "Participant 7FAAACA5",
+    "nom": "Participant 7FAAACA5",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "39A34BC9": {
-    "id": "39A34BC9",
-    "name": "Participant 39A34BC9",
+    "nom": "Participant 39A34BC9",
     "region": "Poitou-Charentes",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E6E05FFC": {
-    "id": "E6E05FFC",
-    "name": "Participant E6E05FFC",
+    "nom": "Participant E6E05FFC",
     "region": "Trésorier",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "0D12C12F": {
-    "id": "0D12C12F",
-    "name": "Participant 0D12C12F",
+    "nom": "Participant 0D12C12F",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "B18670ED": {
-    "id": "B18670ED",
-    "name": "Participant B18670ED",
+    "nom": "Participant B18670ED",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D3C76602": {
-    "id": "D3C76602",
-    "name": "Participant D3C76602",
+    "nom": "Participant D3C76602",
     "region": "Lyon",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "549DADBD": {
-    "id": "549DADBD",
-    "name": "Participant 549DADBD",
+    "nom": "Participant 549DADBD",
     "region": "Champagne-Ardenne",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "3C916C83": {
-    "id": "3C916C83",
-    "name": "Participant 3C916C83",
+    "nom": "Participant 3C916C83",
     "region": "Poitou-Charentes",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "107F57A2": {
-    "id": "107F57A2",
-    "name": "Participant 107F57A2",
+    "nom": "Participant 107F57A2",
     "region": "Champagne-Ardenne",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "1270EE39": {
-    "id": "1270EE39",
-    "name": "Participant 1270EE39",
+    "nom": "Participant 1270EE39",
     "region": "Clermont-Ferrand",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Jeu enquête",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "090D88B6": {
-    "id": "090D88B6",
-    "name": "Participant 090D88B6",
+    "nom": "Participant 090D88B6",
     "region": "Montpellier",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "78FCD2E0": {
-    "id": "78FCD2E0",
-    "name": "Participant 78FCD2E0",
+    "nom": "Participant 78FCD2E0",
     "region": "Franche-Comté",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "62067242": {
-    "id": "62067242",
-    "name": "Participant 62067242",
+    "nom": "Participant 62067242",
     "region": "Nantes",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "6A4F64F7": {
-    "id": "6A4F64F7",
-    "name": "Participant 6A4F64F7",
+    "nom": "Participant 6A4F64F7",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "66927C40": {
-    "id": "66927C40",
-    "name": "Participant 66927C40",
+    "nom": "Participant 66927C40",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "9E3BFD56": {
-    "id": "9E3BFD56",
-    "name": "Participant 9E3BFD56",
+    "nom": "Participant 9E3BFD56",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "A4438D23": {
-    "id": "A4438D23",
-    "name": "Participant A4438D23",
+    "nom": "Participant A4438D23",
     "region": "Bourgogne",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "80E175DB": {
-    "id": "80E175DB",
-    "name": "Participant 80E175DB",
+    "nom": "Participant 80E175DB",
     "region": "Lyon",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "CBE3A566": {
-    "id": "CBE3A566",
-    "name": "Participant CBE3A566",
+    "nom": "Participant CBE3A566",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "8081A05F": {
-    "id": "8081A05F",
-    "name": "Participant 8081A05F",
+    "nom": "Participant 8081A05F",
     "region": "Clermont-Ferrand",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "F2DAA3A6": {
-    "id": "F2DAA3A6",
-    "name": "Participant F2DAA3A6",
+    "nom": "Participant F2DAA3A6",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "A755A734": {
-    "id": "A755A734",
-    "name": "Participant A755A734",
+    "nom": "Participant A755A734",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "2EEAAE87": {
-    "id": "2EEAAE87",
-    "name": "Participant 2EEAAE87",
+    "nom": "Participant 2EEAAE87",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Lundi 9h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D63B828B": {
-    "id": "D63B828B",
-    "name": "Participant D63B828B",
+    "nom": "Participant D63B828B",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E1530531": {
-    "id": "E1530531",
-    "name": "Participant E1530531",
+    "nom": "Participant E1530531",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "391C2B88": {
-    "id": "391C2B88",
-    "name": "Participant 391C2B88",
+    "nom": "Participant 391C2B88",
     "region": "Lorraine",
-    "events": [
+    "evenements": [
       {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "85AE2CA6": {
-    "id": "85AE2CA6",
-    "name": "Participant 85AE2CA6",
+    "nom": "Participant 85AE2CA6",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "F4500036": {
-    "id": "F4500036",
-    "name": "Participant F4500036",
+    "nom": "Participant F4500036",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "88B360C9": {
-    "id": "88B360C9",
-    "name": "Participant 88B360C9",
+    "nom": "Participant 88B360C9",
     "region": "Lille",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "ACA1B60A": {
-    "id": "ACA1B60A",
-    "name": "Participant ACA1B60A",
+    "nom": "Participant ACA1B60A",
     "region": "Haute-Normandie",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "ADD7C110": {
-    "id": "ADD7C110",
-    "name": "Participant ADD7C110",
+    "nom": "Participant ADD7C110",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "35C4666D": {
-    "id": "35C4666D",
-    "name": "Participant 35C4666D",
+    "nom": "Participant 35C4666D",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "B3EDA5B3": {
-    "id": "B3EDA5B3",
-    "name": "Participant B3EDA5B3",
+    "nom": "Participant B3EDA5B3",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "C02B1B2F": {
-    "id": "C02B1B2F",
-    "name": "Participant C02B1B2F",
+    "nom": "Participant C02B1B2F",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "C978B8D5": {
-    "id": "C978B8D5",
-    "name": "Participant C978B8D5",
+    "nom": "Participant C978B8D5",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "D9F5CE85": {
-    "id": "D9F5CE85",
-    "name": "Participant D9F5CE85",
+    "nom": "Participant D9F5CE85",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "FC585A85": {
-    "id": "FC585A85",
-    "name": "Participant FC585A85",
+    "nom": "Participant FC585A85",
     "region": "Lille",
-    "events": [
+    "evenements": [
       {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "2334E063": {
-    "id": "2334E063",
-    "name": "Participant 2334E063",
+    "nom": "Participant 2334E063",
     "region": "Picardie",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "3108DBEB": {
-    "id": "3108DBEB",
-    "name": "Participant 3108DBEB",
+    "nom": "Participant 3108DBEB",
     "region": "Lille",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "2DE6FEA8": {
-    "id": "2DE6FEA8",
-    "name": "Participant 2DE6FEA8",
+    "nom": "Participant 2DE6FEA8",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "1FB729EA": {
-    "id": "1FB729EA",
-    "name": "Participant 1FB729EA",
+    "nom": "Participant 1FB729EA",
     "region": "La Réunion",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "C6C12527": {
-    "id": "C6C12527",
-    "name": "Participant C6C12527",
+    "nom": "Participant C6C12527",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Jeu enquête",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D379FC65": {
-    "id": "D379FC65",
-    "name": "Participant D379FC65",
+    "nom": "Participant D379FC65",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "C59DB9D5": {
-    "id": "C59DB9D5",
-    "name": "Participant C59DB9D5",
+    "nom": "Participant C59DB9D5",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "A8CE8A5E": {
-    "id": "A8CE8A5E",
-    "name": "Participant A8CE8A5E",
+    "nom": "Participant A8CE8A5E",
     "region": "Strasbourg",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "C3E97BC0": {
-    "id": "C3E97BC0",
-    "name": "Participant C3E97BC0",
+    "nom": "Participant C3E97BC0",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "FEADA00F": {
-    "id": "FEADA00F",
-    "name": "Participant FEADA00F",
+    "nom": "Participant FEADA00F",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Jeu enquête",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "150B4FD7": {
-    "id": "150B4FD7",
-    "name": "Participant 150B4FD7",
+    "nom": "Participant 150B4FD7",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "C70B0282": {
-    "id": "C70B0282",
-    "name": "Participant C70B0282",
+    "nom": "Participant C70B0282",
     "region": "Poitou-Charentes",
-    "events": [
+    "evenements": [
       {
-        "name": "Jeu enquête",
-        "time": "Mardi 14h"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Jeu enquête",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Jeu enquête",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "ED841ABA": {
-    "id": "ED841ABA",
-    "name": "Participant ED841ABA",
+    "nom": "Participant ED841ABA",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "7D0499E7": {
-    "id": "7D0499E7",
-    "name": "Participant 7D0499E7",
+    "nom": "Participant 7D0499E7",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BD70415A": {
-    "id": "BD70415A",
-    "name": "Participant BD70415A",
+    "nom": "Participant BD70415A",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "F81E61E5": {
-    "id": "F81E61E5",
-    "name": "Participant F81E61E5",
+    "nom": "Participant F81E61E5",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "60BC6B4E": {
-    "id": "60BC6B4E",
-    "name": "Participant 60BC6B4E",
+    "nom": "Participant 60BC6B4E",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "A0683D0B": {
-    "id": "A0683D0B",
-    "name": "Participant A0683D0B",
+    "nom": "Participant A0683D0B",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "FE3D6A28": {
-    "id": "FE3D6A28",
-    "name": "Participant FE3D6A28",
+    "nom": "Participant FE3D6A28",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "C6233C3E": {
-    "id": "C6233C3E",
-    "name": "Participant C6233C3E",
+    "nom": "Participant C6233C3E",
     "region": "Secrétaire",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "9209A93A": {
-    "id": "9209A93A",
-    "name": "Participant 9209A93A",
+    "nom": "Participant 9209A93A",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "EA40E586": {
-    "id": "EA40E586",
-    "name": "Participant EA40E586",
+    "nom": "Participant EA40E586",
     "region": "Franche-Comté",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Jeu enquête",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "42889FCA": {
-    "id": "42889FCA",
-    "name": "Participant 42889FCA",
+    "nom": "Participant 42889FCA",
     "region": "Centre-Val de Loire",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "CC59D958": {
-    "id": "CC59D958",
-    "name": "Participant CC59D958",
+    "nom": "Participant CC59D958",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "DC4A2481": {
-    "id": "DC4A2481",
-    "name": "Participant DC4A2481",
+    "nom": "Participant DC4A2481",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "AE75C633": {
-    "id": "AE75C633",
-    "name": "Participant AE75C633",
+    "nom": "Participant AE75C633",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "3D71320A": {
-    "id": "3D71320A",
-    "name": "Participant 3D71320A",
+    "nom": "Participant 3D71320A",
     "region": "Montpellier",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "7C74F612": {
-    "id": "7C74F612",
-    "name": "Participant 7C74F612",
+    "nom": "Participant 7C74F612",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Jeu enquête",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "27921C4C": {
-    "id": "27921C4C",
-    "name": "Participant 27921C4C",
+    "nom": "Participant 27921C4C",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "5B0A9675": {
-    "id": "5B0A9675",
-    "name": "Participant 5B0A9675",
+    "nom": "Participant 5B0A9675",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "09D05648": {
-    "id": "09D05648",
-    "name": "Participant 09D05648",
+    "nom": "Participant 09D05648",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "AF347A39": {
-    "id": "AF347A39",
-    "name": "Participant AF347A39",
+    "nom": "Participant AF347A39",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "91D2CC82": {
-    "id": "91D2CC82",
-    "name": "Participant 91D2CC82",
+    "nom": "Participant 91D2CC82",
     "region": "Montpellier",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "C687E2BF": {
-    "id": "C687E2BF",
-    "name": "Participant C687E2BF",
+    "nom": "Participant C687E2BF",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Enfant",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BF25B789": {
-    "id": "BF25B789",
-    "name": "Participant BF25B789",
+    "nom": "Participant BF25B789",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "294C5515": {
-    "id": "294C5515",
-    "name": "Participant 294C5515",
+    "nom": "Participant 294C5515",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "4754382E": {
-    "id": "4754382E",
-    "name": "Participant 4754382E",
+    "nom": "Participant 4754382E",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "1025429A": {
-    "id": "1025429A",
-    "name": "Participant 1025429A",
+    "nom": "Participant 1025429A",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "44EEF63E": {
-    "id": "44EEF63E",
-    "name": "Participant 44EEF63E",
+    "nom": "Participant 44EEF63E",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "F138395E": {
-    "id": "F138395E",
-    "name": "Participant F138395E",
+    "nom": "Participant F138395E",
     "region": "Franche-Comté",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E6565A3C": {
-    "id": "E6565A3C",
-    "name": "Participant E6565A3C",
+    "nom": "Participant E6565A3C",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "6A2E7C38": {
-    "id": "6A2E7C38",
-    "name": "Participant 6A2E7C38",
+    "nom": "Participant 6A2E7C38",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "977BE4BD": {
-    "id": "977BE4BD",
-    "name": "Participant 977BE4BD",
+    "nom": "Participant 977BE4BD",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "78BEFA87": {
-    "id": "78BEFA87",
-    "name": "Participant 78BEFA87",
+    "nom": "Participant 78BEFA87",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "438D5813": {
-    "id": "438D5813",
-    "name": "Participant 438D5813",
+    "nom": "Participant 438D5813",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "518E75A2": {
-    "id": "518E75A2",
-    "name": "Participant 518E75A2",
+    "nom": "Participant 518E75A2",
     "region": "Champagne-Ardenne",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Lundi 9h30"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Lundi 9h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "07448BE2": {
-    "id": "07448BE2",
-    "name": "Participant 07448BE2",
+    "nom": "Participant 07448BE2",
     "region": "Nantes",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "BEED2E44": {
-    "id": "BEED2E44",
-    "name": "Participant BEED2E44",
+    "nom": "Participant BEED2E44",
     "region": "Centre-Val de Loire",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "2D998628": {
-    "id": "2D998628",
-    "name": "Participant 2D998628",
+    "nom": "Participant 2D998628",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "1C371554": {
-    "id": "1C371554",
-    "name": "Participant 1C371554",
+    "nom": "Participant 1C371554",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D6CDCAF0": {
-    "id": "D6CDCAF0",
-    "name": "Participant D6CDCAF0",
+    "nom": "Participant D6CDCAF0",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "06ED30A7": {
-    "id": "06ED30A7",
-    "name": "Participant 06ED30A7",
+    "nom": "Participant 06ED30A7",
     "region": "Lorraine",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "711E0D68": {
-    "id": "711E0D68",
-    "name": "Participant 711E0D68",
+    "nom": "Participant 711E0D68",
     "region": "Lorraine",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "33BABDAD": {
-    "id": "33BABDAD",
-    "name": "Participant 33BABDAD",
-    "region": "Nice-Corse",
-    "events": []
+    "nom": "Participant 33BABDAD",
+    "region": "Inconnue",
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "6DE13689": {
-    "id": "6DE13689",
-    "name": "Participant 6DE13689",
+    "nom": "Participant 6DE13689",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "2CF16EEE": {
-    "id": "2CF16EEE",
-    "name": "Participant 2CF16EEE",
+    "nom": "Participant 2CF16EEE",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "F250F588": {
-    "id": "F250F588",
-    "name": "Participant F250F588",
+    "nom": "Participant F250F588",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "801B4A75": {
-    "id": "801B4A75",
-    "name": "Participant 801B4A75",
+    "nom": "Participant 801B4A75",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "03CD93FE": {
-    "id": "03CD93FE",
-    "name": "Participant 03CD93FE",
+    "nom": "Participant 03CD93FE",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "1AEA6633": {
-    "id": "1AEA6633",
-    "name": "Participant 1AEA6633",
+    "nom": "Participant 1AEA6633",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "AD6106FF": {
-    "id": "AD6106FF",
-    "name": "Participant AD6106FF",
+    "nom": "Participant AD6106FF",
     "region": "Lille",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "A1D884AC": {
-    "id": "A1D884AC",
-    "name": "Participant A1D884AC",
+    "nom": "Participant A1D884AC",
     "region": "Haute-Normandie",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "B668FFED": {
-    "id": "B668FFED",
-    "name": "Participant B668FFED",
+    "nom": "Participant B668FFED",
     "region": "Grenoble",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "532F14CC": {
-    "id": "532F14CC",
-    "name": "Participant 532F14CC",
+    "nom": "Participant 532F14CC",
     "region": "Strasbourg",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "623A1791": {
-    "id": "623A1791",
-    "name": "Participant 623A1791",
+    "nom": "Participant 623A1791",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "33C06B08": {
-    "id": "33C06B08",
-    "name": "Participant 33C06B08",
+    "nom": "Participant 33C06B08",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D25DA001": {
-    "id": "D25DA001",
-    "name": "Participant D25DA001",
+    "nom": "Participant D25DA001",
     "region": "Aix-Marseille",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "6F08AF10": {
-    "id": "6F08AF10",
-    "name": "Participant 6F08AF10",
+    "nom": "Participant 6F08AF10",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "8A82B737": {
-    "id": "8A82B737",
-    "name": "Participant 8A82B737",
+    "nom": "Participant 8A82B737",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "70AC173F": {
-    "id": "70AC173F",
-    "name": "Participant 70AC173F",
+    "nom": "Participant 70AC173F",
     "region": "Lille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "32BA591F": {
-    "id": "32BA591F",
-    "name": "Participant 32BA591F",
+    "nom": "Participant 32BA591F",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "AA4D9782": {
-    "id": "AA4D9782",
-    "name": "Participant AA4D9782",
+    "nom": "Participant AA4D9782",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "6A08246A": {
-    "id": "6A08246A",
-    "name": "Participant 6A08246A",
+    "nom": "Participant 6A08246A",
     "region": "Haute-Normandie",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "A2396CDC": {
-    "id": "A2396CDC",
-    "name": "Participant A2396CDC",
+    "nom": "Participant A2396CDC",
     "region": "Strasbourg",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "AE5BEB25": {
-    "id": "AE5BEB25",
-    "name": "Participant AE5BEB25",
+    "nom": "Participant AE5BEB25",
     "region": "Picardie",
-    "events": [
+    "evenements": [
       {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "F2CCCABD": {
-    "id": "F2CCCABD",
-    "name": "Participant F2CCCABD",
+    "nom": "Participant F2CCCABD",
     "region": "Poitou-Charentes",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "E76C7EBD": {
-    "id": "E76C7EBD",
-    "name": "Participant E76C7EBD",
+    "nom": "Participant E76C7EBD",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "73012F20": {
-    "id": "73012F20",
-    "name": "Participant 73012F20",
+    "nom": "Participant 73012F20",
     "region": "Centre-Val de Loire",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "4589C346": {
-    "id": "4589C346",
-    "name": "Participant 4589C346",
+    "nom": "Participant 4589C346",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "AC1F1C76": {
-    "id": "AC1F1C76",
-    "name": "Participant AC1F1C76",
+    "nom": "Participant AC1F1C76",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "F16531D2": {
-    "id": "F16531D2",
-    "name": "Participant F16531D2",
+    "nom": "Participant F16531D2",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "2A961650": {
-    "id": "2A961650",
-    "name": "Participant 2A961650",
+    "nom": "Participant 2A961650",
     "region": "Centre-Val de Loire",
-    "events": [
+    "evenements": [
       {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BBFCE35E": {
-    "id": "BBFCE35E",
-    "name": "Participant BBFCE35E",
+    "nom": "Participant BBFCE35E",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Jeu enquête",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "8B8A10C7": {
-    "id": "8B8A10C7",
-    "name": "Participant 8B8A10C7",
+    "nom": "Participant 8B8A10C7",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "77D3A907": {
-    "id": "77D3A907",
-    "name": "Participant 77D3A907",
+    "nom": "Participant 77D3A907",
     "region": "Bourgogne",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "26DB144B": {
-    "id": "26DB144B",
-    "name": "Participant 26DB144B",
+    "nom": "Participant 26DB144B",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "2AEECCFD": {
-    "id": "2AEECCFD",
-    "name": "Participant 2AEECCFD",
+    "nom": "Participant 2AEECCFD",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "0C71C1B6": {
-    "id": "0C71C1B6",
-    "name": "Participant 0C71C1B6",
+    "nom": "Participant 0C71C1B6",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E28E2FF5": {
-    "id": "E28E2FF5",
-    "name": "Participant E28E2FF5",
+    "nom": "Participant E28E2FF5",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "267C41BA": {
-    "id": "267C41BA",
-    "name": "Participant 267C41BA",
+    "nom": "Participant 267C41BA",
     "region": "Bourgogne",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "6F83C63D": {
-    "id": "6F83C63D",
-    "name": "Participant 6F83C63D",
+    "nom": "Participant 6F83C63D",
     "region": "Bourgogne",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "05ACDE1C": {
-    "id": "05ACDE1C",
-    "name": "Participant 05ACDE1C",
+    "nom": "Participant 05ACDE1C",
     "region": "Lorraine",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D763914E": {
-    "id": "D763914E",
-    "name": "Participant D763914E",
+    "nom": "Participant D763914E",
     "region": "Lorraine",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E72C4CC0": {
-    "id": "E72C4CC0",
-    "name": "Participant E72C4CC0",
+    "nom": "Participant E72C4CC0",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "352CEA10": {
-    "id": "352CEA10",
-    "name": "Participant 352CEA10",
+    "nom": "Participant 352CEA10",
     "region": "Champagne-Ardenne",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "ABF4FA1D": {
-    "id": "ABF4FA1D",
-    "name": "Participant ABF4FA1D",
+    "nom": "Participant ABF4FA1D",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "6106BA2E": {
-    "id": "6106BA2E",
-    "name": "Participant 6106BA2E",
+    "nom": "Participant 6106BA2E",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "6190C7DB": {
-    "id": "6190C7DB",
-    "name": "Participant 6190C7DB",
+    "nom": "Participant 6190C7DB",
     "region": "BELGIQUE",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "DB7F56F8": {
-    "id": "DB7F56F8",
-    "name": "Participant DB7F56F8",
+    "nom": "Participant DB7F56F8",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "494D8B18": {
-    "id": "494D8B18",
-    "name": "Participant 494D8B18",
+    "nom": "Participant 494D8B18",
     "region": "Montpellier",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "F8A9730B": {
-    "id": "F8A9730B",
-    "name": "Participant F8A9730B",
+    "nom": "Participant F8A9730B",
     "region": "Bourgogne",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "3E03FD5E": {
-    "id": "3E03FD5E",
-    "name": "Participant 3E03FD5E",
+    "nom": "Participant 3E03FD5E",
     "region": "Bourgogne",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "EA34B669": {
-    "id": "EA34B669",
-    "name": "Participant EA34B669",
+    "nom": "Participant EA34B669",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BAC4EF02": {
-    "id": "BAC4EF02",
-    "name": "Participant BAC4EF02",
+    "nom": "Participant BAC4EF02",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "1B5EB9DA": {
-    "id": "1B5EB9DA",
-    "name": "Participant 1B5EB9DA",
+    "nom": "Participant 1B5EB9DA",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BDABCA0F": {
-    "id": "BDABCA0F",
-    "name": "Participant BDABCA0F",
+    "nom": "Participant BDABCA0F",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "E2159371": {
-    "id": "E2159371",
-    "name": "Participant E2159371",
+    "nom": "Participant E2159371",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "EF76A0CB": {
-    "id": "EF76A0CB",
-    "name": "Participant EF76A0CB",
+    "nom": "Participant EF76A0CB",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "90C71A46": {
-    "id": "90C71A46",
-    "name": "Participant 90C71A46",
+    "nom": "Participant 90C71A46",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "1E148C0C": {
-    "id": "1E148C0C",
-    "name": "Participant 1E148C0C",
+    "nom": "Participant 1E148C0C",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "F894F033": {
-    "id": "F894F033",
-    "name": "Participant F894F033",
+    "nom": "Participant F894F033",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "70607205": {
-    "id": "70607205",
-    "name": "Participant 70607205",
+    "nom": "Participant 70607205",
     "region": "Toulouse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "A2000814": {
-    "id": "A2000814",
-    "name": "Participant A2000814",
+    "nom": "Participant A2000814",
     "region": "Toulouse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "A2A9FBED": {
-    "id": "A2A9FBED",
-    "name": "Participant A2A9FBED",
+    "nom": "Participant A2A9FBED",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "91C7504E": {
-    "id": "91C7504E",
-    "name": "Participant 91C7504E",
+    "nom": "Participant 91C7504E",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "A4E35A50": {
-    "id": "A4E35A50",
-    "name": "Participant A4E35A50",
+    "nom": "Participant A4E35A50",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "DA65A88F": {
-    "id": "DA65A88F",
-    "name": "Participant DA65A88F",
+    "nom": "Participant DA65A88F",
     "region": "Poitou-Charentes",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "C536C8AC": {
-    "id": "C536C8AC",
-    "name": "Participant C536C8AC",
+    "nom": "Participant C536C8AC",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "AF153A19": {
-    "id": "AF153A19",
-    "name": "Participant AF153A19",
+    "nom": "Participant AF153A19",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Jeu enquête",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "2A608F02": {
-    "id": "2A608F02",
-    "name": "Participant 2A608F02",
+    "nom": "Participant 2A608F02",
     "region": "Bourgogne",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "4D72763F": {
-    "id": "4D72763F",
-    "name": "Participant 4D72763F",
+    "nom": "Participant 4D72763F",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "229AB3E3": {
-    "id": "229AB3E3",
-    "name": "Participant 229AB3E3",
+    "nom": "Participant 229AB3E3",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "56D303C7": {
-    "id": "56D303C7",
-    "name": "Participant 56D303C7",
+    "nom": "Participant 56D303C7",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "701D79F0": {
-    "id": "701D79F0",
-    "name": "Participant 701D79F0",
+    "nom": "Participant 701D79F0",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "DD162FB2": {
-    "id": "DD162FB2",
-    "name": "Participant DD162FB2",
+    "nom": "Participant DD162FB2",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "7BDD9FD5": {
-    "id": "7BDD9FD5",
-    "name": "Participant 7BDD9FD5",
+    "nom": "Participant 7BDD9FD5",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "B614FA32": {
-    "id": "B614FA32",
-    "name": "Participant B614FA32",
+    "nom": "Participant B614FA32",
     "region": "Poitou-Charentes",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "75804E55": {
-    "id": "75804E55",
-    "name": "Participant 75804E55",
+    "nom": "Participant 75804E55",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "F6DA919E": {
-    "id": "F6DA919E",
-    "name": "Participant F6DA919E",
+    "nom": "Participant F6DA919E",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "A6684550": {
-    "id": "A6684550",
-    "name": "Participant A6684550",
+    "nom": "Participant A6684550",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E5790DA5": {
-    "id": "E5790DA5",
-    "name": "Participant E5790DA5",
+    "nom": "Participant E5790DA5",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "2B445B49": {
-    "id": "2B445B49",
-    "name": "Participant 2B445B49",
+    "nom": "Participant 2B445B49",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "F3DBDA93": {
-    "id": "F3DBDA93",
-    "name": "Participant F3DBDA93",
+    "nom": "Participant F3DBDA93",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "BF4FC9BA": {
-    "id": "BF4FC9BA",
-    "name": "Participant BF4FC9BA",
+    "nom": "Participant BF4FC9BA",
     "region": "Montpellier",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E88FBCA5": {
-    "id": "E88FBCA5",
-    "name": "Participant E88FBCA5",
+    "nom": "Participant E88FBCA5",
     "region": "Centre-Val de Loire",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "781819A8": {
-    "id": "781819A8",
-    "name": "Participant 781819A8",
+    "nom": "Participant 781819A8",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "E9D53FF2": {
-    "id": "E9D53FF2",
-    "name": "Participant E9D53FF2",
+    "nom": "Participant E9D53FF2",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "F678FC53": {
-    "id": "F678FC53",
-    "name": "Participant F678FC53",
+    "nom": "Participant F678FC53",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "73154EC1": {
-    "id": "73154EC1",
-    "name": "Participant 73154EC1",
+    "nom": "Participant 73154EC1",
     "region": "Strasbourg",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "256C6AE5": {
-    "id": "256C6AE5",
-    "name": "Participant 256C6AE5",
+    "nom": "Participant 256C6AE5",
     "region": "Strasbourg",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E04FA4B0": {
-    "id": "E04FA4B0",
-    "name": "Participant E04FA4B0",
+    "nom": "Participant E04FA4B0",
     "region": "BELGIQUE",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "92A1C14D": {
-    "id": "92A1C14D",
-    "name": "Participant 92A1C14D",
+    "nom": "Participant 92A1C14D",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "67F14EF8": {
-    "id": "67F14EF8",
-    "name": "Participant 67F14EF8",
+    "nom": "Participant 67F14EF8",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E437B4C4": {
-    "id": "E437B4C4",
-    "name": "Participant E437B4C4",
+    "nom": "Participant E437B4C4",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "F6322E22": {
-    "id": "F6322E22",
-    "name": "Participant F6322E22",
+    "nom": "Participant F6322E22",
     "region": "Centre-Val de Loire",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "944C41A9": {
-    "id": "944C41A9",
-    "name": "Participant 944C41A9",
+    "nom": "Participant 944C41A9",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "6FDD7BD9": {
-    "id": "6FDD7BD9",
-    "name": "Participant 6FDD7BD9",
+    "nom": "Participant 6FDD7BD9",
     "region": "Champagne-Ardenne",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "ABADAF9C": {
-    "id": "ABADAF9C",
-    "name": "Participant ABADAF9C",
+    "nom": "Participant ABADAF9C",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E51B3783": {
-    "id": "E51B3783",
-    "name": "Participant E51B3783",
+    "nom": "Participant E51B3783",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "B693D53E": {
-    "id": "B693D53E",
-    "name": "Participant B693D53E",
+    "nom": "Participant B693D53E",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "091AD7D7": {
-    "id": "091AD7D7",
-    "name": "Participant 091AD7D7",
+    "nom": "Participant 091AD7D7",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "AE1DC229": {
-    "id": "AE1DC229",
-    "name": "Participant AE1DC229",
+    "nom": "Participant AE1DC229",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Visite Rade Enfant",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "7084E4E4": {
-    "id": "7084E4E4",
-    "name": "Participant 7084E4E4",
+    "nom": "Participant 7084E4E4",
     "region": "Poitou-Charentes",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "694CDFE6": {
-    "id": "694CDFE6",
-    "name": "Participant 694CDFE6",
+    "nom": "Participant 694CDFE6",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "72A4BF0D": {
-    "id": "72A4BF0D",
-    "name": "Participant 72A4BF0D",
+    "nom": "Participant 72A4BF0D",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E44AADB5": {
-    "id": "E44AADB5",
-    "name": "Participant E44AADB5",
+    "nom": "Participant E44AADB5",
     "region": "Grenoble",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "81FF2B8C": {
-    "id": "81FF2B8C",
-    "name": "Participant 81FF2B8C",
+    "nom": "Participant 81FF2B8C",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "C5459200": {
-    "id": "C5459200",
-    "name": "Participant C5459200",
+    "nom": "Participant C5459200",
     "region": "Nantes",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BB185D3F": {
-    "id": "BB185D3F",
-    "name": "Participant BB185D3F",
+    "nom": "Participant BB185D3F",
     "region": "Aquitaine",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "047A6E71": {
-    "id": "047A6E71",
-    "name": "Participant 047A6E71",
+    "nom": "Participant 047A6E71",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "47C54475": {
-    "id": "47C54475",
-    "name": "Participant 47C54475",
+    "nom": "Participant 47C54475",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "67404ECA": {
-    "id": "67404ECA",
-    "name": "Participant 67404ECA",
+    "nom": "Participant 67404ECA",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "7F8AF0E5": {
-    "id": "7F8AF0E5",
-    "name": "Participant 7F8AF0E5",
+    "nom": "Participant 7F8AF0E5",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "4D6F2D8A": {
-    "id": "4D6F2D8A",
-    "name": "Participant 4D6F2D8A",
+    "nom": "Participant 4D6F2D8A",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E01F8D61": {
-    "id": "E01F8D61",
-    "name": "Participant E01F8D61",
+    "nom": "Participant E01F8D61",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "9AB95612": {
-    "id": "9AB95612",
-    "name": "Participant 9AB95612",
+    "nom": "Participant 9AB95612",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Jeu enquête",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "A11377F2": {
-    "id": "A11377F2",
-    "name": "Participant A11377F2",
+    "nom": "Participant A11377F2",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "B4F41A9E": {
-    "id": "B4F41A9E",
-    "name": "Participant B4F41A9E",
+    "nom": "Participant B4F41A9E",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "9B0FCCFD": {
-    "id": "9B0FCCFD",
-    "name": "Participant 9B0FCCFD",
+    "nom": "Participant 9B0FCCFD",
     "region": "Grenoble",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "126B7320": {
-    "id": "126B7320",
-    "name": "Participant 126B7320",
+    "nom": "Participant 126B7320",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "A935DA27": {
-    "id": "A935DA27",
-    "name": "Participant A935DA27",
+    "nom": "Participant A935DA27",
     "region": "Grenoble",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "F7B330A8": {
-    "id": "F7B330A8",
-    "name": "Participant F7B330A8",
+    "nom": "Participant F7B330A8",
     "region": "Clermont-Ferrand",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "440B316C": {
-    "id": "440B316C",
-    "name": "Participant 440B316C",
+    "nom": "Participant 440B316C",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "73D5097A": {
-    "id": "73D5097A",
-    "name": "Participant 73D5097A",
+    "nom": "Participant 73D5097A",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "03B4992C": {
-    "id": "03B4992C",
-    "name": "Participant 03B4992C",
+    "nom": "Participant 03B4992C",
     "region": "Aquitaine",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "75C03C1C": {
-    "id": "75C03C1C",
-    "name": "Participant 75C03C1C",
+    "nom": "Participant 75C03C1C",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "B0FBF7E1": {
-    "id": "B0FBF7E1",
-    "name": "Participant B0FBF7E1",
+    "nom": "Participant B0FBF7E1",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "6E57A4EC": {
-    "id": "6E57A4EC",
-    "name": "Participant 6E57A4EC",
+    "nom": "Participant 6E57A4EC",
     "region": "Montpellier",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "EC673B84": {
-    "id": "EC673B84",
-    "name": "Participant EC673B84",
+    "nom": "Participant EC673B84",
     "region": "Aquitaine",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "EB04FF8F": {
-    "id": "EB04FF8F",
-    "name": "Participant EB04FF8F",
+    "nom": "Participant EB04FF8F",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "835F1AD7": {
-    "id": "835F1AD7",
-    "name": "Participant 835F1AD7",
+    "nom": "Participant 835F1AD7",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "9B42F7A6": {
-    "id": "9B42F7A6",
-    "name": "Participant 9B42F7A6",
+    "nom": "Participant 9B42F7A6",
     "region": "Lille",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "8F57D787": {
-    "id": "8F57D787",
-    "name": "Participant 8F57D787",
+    "nom": "Participant 8F57D787",
     "region": "Lorraine",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "5F7AC101": {
-    "id": "5F7AC101",
-    "name": "Participant 5F7AC101",
+    "nom": "Participant 5F7AC101",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "90A90BE4": {
-    "id": "90A90BE4",
-    "name": "Participant 90A90BE4",
+    "nom": "Participant 90A90BE4",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "201B6F15": {
-    "id": "201B6F15",
-    "name": "Participant 201B6F15",
+    "nom": "Participant 201B6F15",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "272FEFD7": {
-    "id": "272FEFD7",
-    "name": "Participant 272FEFD7",
+    "nom": "Participant 272FEFD7",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "430AE6FE": {
-    "id": "430AE6FE",
-    "name": "Participant 430AE6FE",
+    "nom": "Participant 430AE6FE",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "8E0D2A39": {
-    "id": "8E0D2A39",
-    "name": "Participant 8E0D2A39",
+    "nom": "Participant 8E0D2A39",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "35E0C6B3": {
-    "id": "35E0C6B3",
-    "name": "Participant 35E0C6B3",
+    "nom": "Participant 35E0C6B3",
     "region": "Montpellier",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "1F95295B": {
-    "id": "1F95295B",
-    "name": "Participant 1F95295B",
+    "nom": "Participant 1F95295B",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "8B21287A": {
-    "id": "8B21287A",
-    "name": "Participant 8B21287A",
+    "nom": "Participant 8B21287A",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Jeu enquête",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "ED709D9E": {
-    "id": "ED709D9E",
-    "name": "Participant ED709D9E",
+    "nom": "Participant ED709D9E",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "987134FD": {
-    "id": "987134FD",
-    "name": "Participant 987134FD",
+    "nom": "Participant 987134FD",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "FD3F7C30": {
-    "id": "FD3F7C30",
-    "name": "Participant FD3F7C30",
+    "nom": "Participant FD3F7C30",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "1A685CD4": {
-    "id": "1A685CD4",
-    "name": "Participant 1A685CD4",
+    "nom": "Participant 1A685CD4",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "665A388D": {
-    "id": "665A388D",
-    "name": "Participant 665A388D",
+    "nom": "Participant 665A388D",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Enfant",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "39E82FC0": {
-    "id": "39E82FC0",
-    "name": "Participant 39E82FC0",
+    "nom": "Participant 39E82FC0",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "48A7906A": {
-    "id": "48A7906A",
-    "name": "Participant 48A7906A",
+    "nom": "Participant 48A7906A",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "3DE7EAD2": {
-    "id": "3DE7EAD2",
-    "name": "Participant 3DE7EAD2",
+    "nom": "Participant 3DE7EAD2",
     "region": "Lyon",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "F96B182B": {
-    "id": "F96B182B",
-    "name": "Participant F96B182B",
+    "nom": "Participant F96B182B",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "3C74C33B": {
-    "id": "3C74C33B",
-    "name": "Participant 3C74C33B",
+    "nom": "Participant 3C74C33B",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "EBF036C6": {
-    "id": "EBF036C6",
-    "name": "Participant EBF036C6",
+    "nom": "Participant EBF036C6",
     "region": "Nantes",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "09B737F2": {
-    "id": "09B737F2",
-    "name": "Participant 09B737F2",
+    "nom": "Participant 09B737F2",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "01198D63": {
-    "id": "01198D63",
-    "name": "Participant 01198D63",
+    "nom": "Participant 01198D63",
     "region": "Centre-Val de Loire",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "B8C8DF67": {
-    "id": "B8C8DF67",
-    "name": "Participant B8C8DF67",
+    "nom": "Participant B8C8DF67",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "46EE67BA": {
-    "id": "46EE67BA",
-    "name": "Participant 46EE67BA",
+    "nom": "Participant 46EE67BA",
     "region": "Aix-Marseille",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "8AEA6B53": {
-    "id": "8AEA6B53",
-    "name": "Participant 8AEA6B53",
+    "nom": "Participant 8AEA6B53",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "6A93777C": {
-    "id": "6A93777C",
-    "name": "Participant 6A93777C",
+    "nom": "Participant 6A93777C",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "DD2B01B5": {
-    "id": "DD2B01B5",
-    "name": "Participant DD2B01B5",
+    "nom": "Participant DD2B01B5",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "D48F24E3": {
-    "id": "D48F24E3",
-    "name": "Participant D48F24E3",
+    "nom": "Participant D48F24E3",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "01186FFA": {
-    "id": "01186FFA",
-    "name": "Participant 01186FFA",
+    "nom": "Participant 01186FFA",
     "region": "Lorraine",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "D0663535": {
-    "id": "D0663535",
-    "name": "Participant D0663535",
+    "nom": "Participant D0663535",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "555D4BAA": {
-    "id": "555D4BAA",
-    "name": "Participant 555D4BAA",
+    "nom": "Participant 555D4BAA",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "7BBD1E3C": {
-    "id": "7BBD1E3C",
-    "name": "Participant 7BBD1E3C",
+    "nom": "Participant 7BBD1E3C",
     "region": "Poitou-Charentes",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "68F9179B": {
-    "id": "68F9179B",
-    "name": "Participant 68F9179B",
+    "nom": "Participant 68F9179B",
     "region": "Basse-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "89815B35": {
-    "id": "89815B35",
-    "name": "Participant 89815B35",
+    "nom": "Participant 89815B35",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "CD735FBB": {
-    "id": "CD735FBB",
-    "name": "Participant CD735FBB",
+    "nom": "Participant CD735FBB",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Jeu enquête",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Jeu enquête",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Jeu enquête",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "176D8278": {
-    "id": "176D8278",
-    "name": "Participant 176D8278",
+    "nom": "Participant 176D8278",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "E815270A": {
-    "id": "E815270A",
-    "name": "Participant E815270A",
+    "nom": "Participant E815270A",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D3459380": {
-    "id": "D3459380",
-    "name": "Participant D3459380",
+    "nom": "Participant D3459380",
     "region": "NORVÈGE",
-    "events": [
+    "evenements": [
       {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "51C09DAB": {
-    "id": "51C09DAB",
-    "name": "Participant 51C09DAB",
+    "nom": "Participant 51C09DAB",
     "region": "Lille",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "8BFDE7A3": {
-    "id": "8BFDE7A3",
-    "name": "Participant 8BFDE7A3",
+    "nom": "Participant 8BFDE7A3",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BE480175": {
-    "id": "BE480175",
-    "name": "Participant BE480175",
+    "nom": "Participant BE480175",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "5791C741": {
-    "id": "5791C741",
-    "name": "Participant 5791C741",
+    "nom": "Participant 5791C741",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "863B33EB": {
-    "id": "863B33EB",
-    "name": "Participant 863B33EB",
+    "nom": "Participant 863B33EB",
     "region": "Centre-Val de Loire",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "FA9EE4C4": {
-    "id": "FA9EE4C4",
-    "name": "Participant FA9EE4C4",
+    "nom": "Participant FA9EE4C4",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BC75B194": {
-    "id": "BC75B194",
-    "name": "Participant BC75B194",
+    "nom": "Participant BC75B194",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "A10378BA": {
-    "id": "A10378BA",
-    "name": "Participant A10378BA",
+    "nom": "Participant A10378BA",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "C700EECF": {
-    "id": "C700EECF",
-    "name": "Participant C700EECF",
+    "nom": "Participant C700EECF",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "A8028EE5": {
-    "id": "A8028EE5",
-    "name": "Participant A8028EE5",
+    "nom": "Participant A8028EE5",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "1F29AC28": {
-    "id": "1F29AC28",
-    "name": "Participant 1F29AC28",
+    "nom": "Participant 1F29AC28",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "EF6E0FF1": {
-    "id": "EF6E0FF1",
-    "name": "Participant EF6E0FF1",
+    "nom": "Participant EF6E0FF1",
     "region": "Franche-Comté",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "69F3E75D": {
-    "id": "69F3E75D",
-    "name": "Participant 69F3E75D",
+    "nom": "Participant 69F3E75D",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "81BA54E5": {
-    "id": "81BA54E5",
-    "name": "Participant 81BA54E5",
+    "nom": "Participant 81BA54E5",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "98165ED6": {
-    "id": "98165ED6",
-    "name": "Participant 98165ED6",
+    "nom": "Participant 98165ED6",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "174C3DF1": {
-    "id": "174C3DF1",
-    "name": "Participant 174C3DF1",
+    "nom": "Participant 174C3DF1",
     "region": "Basse-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "ADD146F5": {
-    "id": "ADD146F5",
-    "name": "Participant ADD146F5",
+    "nom": "Participant ADD146F5",
     "region": "Centre-Val de Loire",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "E7A6F8E6": {
-    "id": "E7A6F8E6",
-    "name": "Participant E7A6F8E6",
+    "nom": "Participant E7A6F8E6",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D0E3097C": {
-    "id": "D0E3097C",
-    "name": "Participant D0E3097C",
+    "nom": "Participant D0E3097C",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "7A2B4923": {
-    "id": "7A2B4923",
-    "name": "Participant 7A2B4923",
+    "nom": "Participant 7A2B4923",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "C99C444D": {
-    "id": "C99C444D",
-    "name": "Participant C99C444D",
+    "nom": "Participant C99C444D",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "7EFE34E4": {
-    "id": "7EFE34E4",
-    "name": "Participant 7EFE34E4",
+    "nom": "Participant 7EFE34E4",
     "region": "Poitou-Charentes",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "9F1D6A50": {
-    "id": "9F1D6A50",
-    "name": "Participant 9F1D6A50",
+    "nom": "Participant 9F1D6A50",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "14929B6D": {
-    "id": "14929B6D",
-    "name": "Participant 14929B6D",
+    "nom": "Participant 14929B6D",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "97F5E2A6": {
-    "id": "97F5E2A6",
-    "name": "Participant 97F5E2A6",
+    "nom": "Participant 97F5E2A6",
     "region": "Poitou-Charentes",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "B8120A36": {
-    "id": "B8120A36",
-    "name": "Participant B8120A36",
+    "nom": "Participant B8120A36",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "561AFD6E": {
-    "id": "561AFD6E",
-    "name": "Participant 561AFD6E",
+    "nom": "Participant 561AFD6E",
     "region": "Bretagne",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "53A6FC69": {
-    "id": "53A6FC69",
-    "name": "Participant 53A6FC69",
+    "nom": "Participant 53A6FC69",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "19AF34F1": {
-    "id": "19AF34F1",
-    "name": "Participant 19AF34F1",
+    "nom": "Participant 19AF34F1",
     "region": "Bourgogne",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "A54242C0": {
-    "id": "A54242C0",
-    "name": "Participant A54242C0",
+    "nom": "Participant A54242C0",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "FA98CCC3": {
-    "id": "FA98CCC3",
-    "name": "Participant FA98CCC3",
+    "nom": "Participant FA98CCC3",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "74392888": {
-    "id": "74392888",
-    "name": "Participant 74392888",
+    "nom": "Participant 74392888",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "B5DECEAF": {
-    "id": "B5DECEAF",
-    "name": "Participant B5DECEAF",
+    "nom": "Participant B5DECEAF",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "407C1D5E": {
-    "id": "407C1D5E",
-    "name": "Participant 407C1D5E",
+    "nom": "Participant 407C1D5E",
     "region": "Centre-Val de Loire",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "6EB7E092": {
-    "id": "6EB7E092",
-    "name": "Participant 6EB7E092",
+    "nom": "Participant 6EB7E092",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "4187B794": {
-    "id": "4187B794",
-    "name": "Participant 4187B794",
+    "nom": "Participant 4187B794",
     "region": "Lyon",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "D8060C46": {
-    "id": "D8060C46",
-    "name": "Participant D8060C46",
+    "nom": "Participant D8060C46",
     "region": "Grenoble",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "2123CE2D": {
-    "id": "2123CE2D",
-    "name": "Participant 2123CE2D",
+    "nom": "Participant 2123CE2D",
     "region": "Lorraine",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "51209909": {
-    "id": "51209909",
-    "name": "Participant 51209909",
+    "nom": "Participant 51209909",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "A4CD107B": {
-    "id": "A4CD107B",
-    "name": "Participant A4CD107B",
+    "nom": "Participant A4CD107B",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "733C37C5": {
-    "id": "733C37C5",
-    "name": "Participant 733C37C5",
+    "nom": "Participant 733C37C5",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "91FAC560": {
-    "id": "91FAC560",
-    "name": "Participant 91FAC560",
+    "nom": "Participant 91FAC560",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "042C8F85": {
-    "id": "042C8F85",
-    "name": "Participant 042C8F85",
+    "nom": "Participant 042C8F85",
     "region": "Strasbourg",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "821C02F1": {
-    "id": "821C02F1",
-    "name": "Participant 821C02F1",
+    "nom": "Participant 821C02F1",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "B3BD6D2D": {
-    "id": "B3BD6D2D",
-    "name": "Participant B3BD6D2D",
+    "nom": "Participant B3BD6D2D",
     "region": "La Réunion",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "233ECBED": {
-    "id": "233ECBED",
-    "name": "Participant 233ECBED",
+    "nom": "Participant 233ECBED",
     "region": "Haute-Normandie",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "4D7297FC": {
-    "id": "4D7297FC",
-    "name": "Participant 4D7297FC",
+    "nom": "Participant 4D7297FC",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "B6DFC907": {
-    "id": "B6DFC907",
-    "name": "Participant B6DFC907",
+    "nom": "Participant B6DFC907",
     "region": "BELGIQUE",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "8198E41E": {
-    "id": "8198E41E",
-    "name": "Participant 8198E41E",
+    "nom": "Participant 8198E41E",
     "region": "Lorraine",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Lundi 9h30"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "3C14B149": {
-    "id": "3C14B149",
-    "name": "Participant 3C14B149",
+    "nom": "Participant 3C14B149",
     "region": "Lorraine",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E16D1310": {
-    "id": "E16D1310",
-    "name": "Participant E16D1310",
+    "nom": "Participant E16D1310",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E39E1F47": {
-    "id": "E39E1F47",
-    "name": "Participant E39E1F47",
+    "nom": "Participant E39E1F47",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "8C5980D7": {
-    "id": "8C5980D7",
-    "name": "Participant 8C5980D7",
+    "nom": "Participant 8C5980D7",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "AEF10781": {
-    "id": "AEF10781",
-    "name": "Participant AEF10781",
+    "nom": "Participant AEF10781",
     "region": "Aix-Marseille",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "5B54AC2C": {
-    "id": "5B54AC2C",
-    "name": "Participant 5B54AC2C",
+    "nom": "Participant 5B54AC2C",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "F32CAD11": {
-    "id": "F32CAD11",
-    "name": "Participant F32CAD11",
+    "nom": "Participant F32CAD11",
     "region": "Bourgogne",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "7D6C2981": {
-    "id": "7D6C2981",
-    "name": "Participant 7D6C2981",
+    "nom": "Participant 7D6C2981",
     "region": "Poitou-Charentes",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "C22CE456": {
-    "id": "C22CE456",
-    "name": "Participant C22CE456",
+    "nom": "Participant C22CE456",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "2800289B": {
-    "id": "2800289B",
-    "name": "Participant 2800289B",
+    "nom": "Participant 2800289B",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "9D467E16": {
-    "id": "9D467E16",
-    "name": "Participant 9D467E16",
+    "nom": "Participant 9D467E16",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "02C70EE6": {
-    "id": "02C70EE6",
-    "name": "Participant 02C70EE6",
+    "nom": "Participant 02C70EE6",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "2E250F02": {
-    "id": "2E250F02",
-    "name": "Participant 2E250F02",
+    "nom": "Participant 2E250F02",
     "region": "MAROC",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "F57CEDC8": {
-    "id": "F57CEDC8",
-    "name": "Participant F57CEDC8",
+    "nom": "Participant F57CEDC8",
     "region": "Champagne-Ardenne",
-    "events": [
+    "evenements": [
       {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Lundi 9h30"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Lundi 9h30"
-      },
-      {
-        "name": "Jeu enquête",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Jeu enquête",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "9F8D728C": {
-    "id": "9F8D728C",
-    "name": "Participant 9F8D728C",
+    "nom": "Participant 9F8D728C",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "FD781358": {
-    "id": "FD781358",
-    "name": "Participant FD781358",
+    "nom": "Participant FD781358",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E5C83D20": {
-    "id": "E5C83D20",
-    "name": "Participant E5C83D20",
+    "nom": "Participant E5C83D20",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Jeu enquête",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "A8C656DD": {
-    "id": "A8C656DD",
-    "name": "Participant A8C656DD",
+    "nom": "Participant A8C656DD",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BF63F828": {
-    "id": "BF63F828",
-    "name": "Participant BF63F828",
+    "nom": "Participant BF63F828",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Enfant",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "170C60C6": {
-    "id": "170C60C6",
-    "name": "Participant 170C60C6",
+    "nom": "Participant 170C60C6",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "6B50FF90": {
-    "id": "6B50FF90",
-    "name": "Participant 6B50FF90",
+    "nom": "Participant 6B50FF90",
     "region": "Poitou-Charentes",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "45F156FD": {
-    "id": "45F156FD",
-    "name": "Participant 45F156FD",
+    "nom": "Participant 45F156FD",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "8D022F9D": {
-    "id": "8D022F9D",
-    "name": "Participant 8D022F9D",
+    "nom": "Participant 8D022F9D",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "2CB21A8D": {
-    "id": "2CB21A8D",
-    "name": "Participant 2CB21A8D",
+    "nom": "Participant 2CB21A8D",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "AE223D79": {
-    "id": "AE223D79",
-    "name": "Participant AE223D79",
+    "nom": "Participant AE223D79",
     "region": "LUXEMBOURG",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "AA530DE1": {
-    "id": "AA530DE1",
-    "name": "Participant AA530DE1",
+    "nom": "Participant AA530DE1",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "96B4E6DB": {
-    "id": "96B4E6DB",
-    "name": "Participant 96B4E6DB",
+    "nom": "Participant 96B4E6DB",
     "region": "Strasbourg",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "979848AF": {
-    "id": "979848AF",
-    "name": "Participant 979848AF",
+    "nom": "Participant 979848AF",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "3327C751": {
-    "id": "3327C751",
-    "name": "Participant 3327C751",
+    "nom": "Participant 3327C751",
     "region": "Clermont-Ferrand",
-    "events": [
+    "evenements": [
       {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Lundi 9h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "9CF0DB67": {
-    "id": "9CF0DB67",
-    "name": "Participant 9CF0DB67",
+    "nom": "Participant 9CF0DB67",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "1BC2A999": {
-    "id": "1BC2A999",
-    "name": "Participant 1BC2A999",
+    "nom": "Participant 1BC2A999",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "70EACCE7": {
-    "id": "70EACCE7",
-    "name": "Participant 70EACCE7",
+    "nom": "Participant 70EACCE7",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E619869C": {
-    "id": "E619869C",
-    "name": "Participant E619869C",
+    "nom": "Participant E619869C",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "C6854D07": {
-    "id": "C6854D07",
-    "name": "Participant C6854D07",
+    "nom": "Participant C6854D07",
     "region": "Présidente",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "DA3669C0": {
-    "id": "DA3669C0",
-    "name": "Participant DA3669C0",
+    "nom": "Participant DA3669C0",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "64FCD1FF": {
-    "id": "64FCD1FF",
-    "name": "Participant 64FCD1FF",
+    "nom": "Participant 64FCD1FF",
     "region": "Bureau national",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E75B5B2A": {
-    "id": "E75B5B2A",
-    "name": "Participant E75B5B2A",
+    "nom": "Participant E75B5B2A",
     "region": "Montpellier",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "D9F996B8": {
-    "id": "D9F996B8",
-    "name": "Participant D9F996B8",
+    "nom": "Participant D9F996B8",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "B59361D6": {
-    "id": "B59361D6",
-    "name": "Participant B59361D6",
+    "nom": "Participant B59361D6",
     "region": "Bourgogne",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "378A8101": {
-    "id": "378A8101",
-    "name": "Participant 378A8101",
+    "nom": "Participant 378A8101",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "6A87E9FC": {
-    "id": "6A87E9FC",
-    "name": "Participant 6A87E9FC",
+    "nom": "Participant 6A87E9FC",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Jeu enquête",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "8825376A": {
-    "id": "8825376A",
-    "name": "Participant 8825376A",
+    "nom": "Participant 8825376A",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "CA99DF66": {
-    "id": "CA99DF66",
-    "name": "Participant CA99DF66",
+    "nom": "Participant CA99DF66",
     "region": "Haute-Normandie",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "99011B68": {
-    "id": "99011B68",
-    "name": "Participant 99011B68",
+    "nom": "Participant 99011B68",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "AF584EC9": {
-    "id": "AF584EC9",
-    "name": "Participant AF584EC9",
+    "nom": "Participant AF584EC9",
     "region": "Poitou-Charentes",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "0FAF6799": {
-    "id": "0FAF6799",
-    "name": "Participant 0FAF6799",
+    "nom": "Participant 0FAF6799",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "DA6D753A": {
-    "id": "DA6D753A",
-    "name": "Participant DA6D753A",
+    "nom": "Participant DA6D753A",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "6B4674B3": {
-    "id": "6B4674B3",
-    "name": "Participant 6B4674B3",
+    "nom": "Participant 6B4674B3",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Lundi 9h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "24F446D2": {
-    "id": "24F446D2",
-    "name": "Participant 24F446D2",
+    "nom": "Participant 24F446D2",
     "region": "Picardie",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "020F62DF": {
-    "id": "020F62DF",
-    "name": "Participant 020F62DF",
+    "nom": "Participant 020F62DF",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "60259B2A": {
-    "id": "60259B2A",
-    "name": "Participant 60259B2A",
+    "nom": "Participant 60259B2A",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "899334FB": {
-    "id": "899334FB",
-    "name": "Participant 899334FB",
+    "nom": "Participant 899334FB",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BB7AA529": {
-    "id": "BB7AA529",
-    "name": "Participant BB7AA529",
+    "nom": "Participant BB7AA529",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "DA35DAE1": {
-    "id": "DA35DAE1",
-    "name": "Participant DA35DAE1",
+    "nom": "Participant DA35DAE1",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "1F20720B": {
-    "id": "1F20720B",
-    "name": "Participant 1F20720B",
+    "nom": "Participant 1F20720B",
     "region": "Strasbourg",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "B6C8C51F": {
-    "id": "B6C8C51F",
-    "name": "Participant B6C8C51F",
+    "nom": "Participant B6C8C51F",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "09806C48": {
-    "id": "09806C48",
-    "name": "Participant 09806C48",
+    "nom": "Participant 09806C48",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "DE06D21F": {
-    "id": "DE06D21F",
-    "name": "Participant DE06D21F",
+    "nom": "Participant DE06D21F",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "E7D7E4E0": {
-    "id": "E7D7E4E0",
-    "name": "Participant E7D7E4E0",
+    "nom": "Participant E7D7E4E0",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "802A7BEE": {
-    "id": "802A7BEE",
-    "name": "Participant 802A7BEE",
+    "nom": "Participant 802A7BEE",
     "region": "Bourgogne",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BEC97EB6": {
-    "id": "BEC97EB6",
-    "name": "Participant BEC97EB6",
+    "nom": "Participant BEC97EB6",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "415AA180": {
-    "id": "415AA180",
-    "name": "Participant 415AA180",
+    "nom": "Participant 415AA180",
     "region": "Lorraine",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "8B44BBF1": {
-    "id": "8B44BBF1",
-    "name": "Participant 8B44BBF1",
+    "nom": "Participant 8B44BBF1",
     "region": "Strasbourg",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "625A756D": {
-    "id": "625A756D",
-    "name": "Participant 625A756D",
+    "nom": "Participant 625A756D",
     "region": "Montpellier",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite Rade Enfant",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BB2B88E9": {
-    "id": "BB2B88E9",
-    "name": "Participant BB2B88E9",
+    "nom": "Participant BB2B88E9",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "855F1AAE": {
-    "id": "855F1AAE",
-    "name": "Participant 855F1AAE",
+    "nom": "Participant 855F1AAE",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "89C756F4": {
-    "id": "89C756F4",
-    "name": "Participant 89C756F4",
+    "nom": "Participant 89C756F4",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D1677DB4": {
-    "id": "D1677DB4",
-    "name": "Participant D1677DB4",
+    "nom": "Participant D1677DB4",
     "region": "Nantes",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "A0BEA557": {
-    "id": "A0BEA557",
-    "name": "Participant A0BEA557",
+    "nom": "Participant A0BEA557",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "5AC6DB73": {
-    "id": "5AC6DB73",
-    "name": "Participant 5AC6DB73",
+    "nom": "Participant 5AC6DB73",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BE4024BB": {
-    "id": "BE4024BB",
-    "name": "Participant BE4024BB",
+    "nom": "Participant BE4024BB",
     "region": "Poitou-Charentes",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "765F225D": {
-    "id": "765F225D",
-    "name": "Participant 765F225D",
+    "nom": "Participant 765F225D",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E04C1CCB": {
-    "id": "E04C1CCB",
-    "name": "Participant E04C1CCB",
+    "nom": "Participant E04C1CCB",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "344E1323": {
-    "id": "344E1323",
-    "name": "Participant 344E1323",
+    "nom": "Participant 344E1323",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Lundi 9h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "858D2E58": {
-    "id": "858D2E58",
-    "name": "Participant 858D2E58",
+    "nom": "Participant 858D2E58",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "EC123DED": {
-    "id": "EC123DED",
-    "name": "Participant EC123DED",
+    "nom": "Participant EC123DED",
     "region": "Basse-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Lundi 9h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "551C6C63": {
-    "id": "551C6C63",
-    "name": "Participant 551C6C63",
+    "nom": "Participant 551C6C63",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "F8BBDC55": {
-    "id": "F8BBDC55",
-    "name": "Participant F8BBDC55",
+    "nom": "Participant F8BBDC55",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "9AB2467A": {
-    "id": "9AB2467A",
-    "name": "Participant 9AB2467A",
+    "nom": "Participant 9AB2467A",
     "region": "Lille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "51DCC516": {
-    "id": "51DCC516",
-    "name": "Participant 51DCC516",
+    "nom": "Participant 51DCC516",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Jeu enquête",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "F16CCC52": {
-    "id": "F16CCC52",
-    "name": "Participant F16CCC52",
+    "nom": "Participant F16CCC52",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "557FC9A3": {
-    "id": "557FC9A3",
-    "name": "Participant 557FC9A3",
+    "nom": "Participant 557FC9A3",
     "region": "Poitou-Charentes",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "C3B8050C": {
-    "id": "C3B8050C",
-    "name": "Participant C3B8050C",
+    "nom": "Participant C3B8050C",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Jeu enquête",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "DA254131": {
-    "id": "DA254131",
-    "name": "Participant DA254131",
+    "nom": "Participant DA254131",
     "region": "Nantes",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "B814BD3D": {
-    "id": "B814BD3D",
-    "name": "Participant B814BD3D",
+    "nom": "Participant B814BD3D",
     "region": "Nantes",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "4F084A0D": {
-    "id": "4F084A0D",
-    "name": "Participant 4F084A0D",
+    "nom": "Participant 4F084A0D",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "0CA70504": {
-    "id": "0CA70504",
-    "name": "Participant 0CA70504",
+    "nom": "Participant 0CA70504",
     "region": "Bureau national",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E16FC520": {
-    "id": "E16FC520",
-    "name": "Participant E16FC520",
+    "nom": "Participant E16FC520",
     "region": "Limoges",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "EA55B491": {
-    "id": "EA55B491",
-    "name": "Participant EA55B491",
+    "nom": "Participant EA55B491",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "A422CB6A": {
-    "id": "A422CB6A",
-    "name": "Participant A422CB6A",
+    "nom": "Participant A422CB6A",
     "region": "Poitou-Charentes",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "10A75CA1": {
-    "id": "10A75CA1",
-    "name": "Participant 10A75CA1",
+    "nom": "Participant 10A75CA1",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "2D1C8438": {
-    "id": "2D1C8438",
-    "name": "Participant 2D1C8438",
+    "nom": "Participant 2D1C8438",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "0E2D9B8E": {
-    "id": "0E2D9B8E",
-    "name": "Participant 0E2D9B8E",
+    "nom": "Participant 0E2D9B8E",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "67114771": {
-    "id": "67114771",
-    "name": "Participant 67114771",
+    "nom": "Participant 67114771",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "B9B3CB77": {
-    "id": "B9B3CB77",
-    "name": "Participant B9B3CB77",
+    "nom": "Participant B9B3CB77",
     "region": "Picardie",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BFB6DB6D": {
-    "id": "BFB6DB6D",
-    "name": "Participant BFB6DB6D",
+    "nom": "Participant BFB6DB6D",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "A74DA605": {
-    "id": "A74DA605",
-    "name": "Participant A74DA605",
+    "nom": "Participant A74DA605",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "E601968F": {
-    "id": "E601968F",
-    "name": "Participant E601968F",
+    "nom": "Participant E601968F",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "6E31EB22": {
-    "id": "6E31EB22",
-    "name": "Participant 6E31EB22",
+    "nom": "Participant 6E31EB22",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "76F1BC74": {
-    "id": "76F1BC74",
-    "name": "Participant 76F1BC74",
+    "nom": "Participant 76F1BC74",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "194CD94E": {
-    "id": "194CD94E",
-    "name": "Participant 194CD94E",
+    "nom": "Participant 194CD94E",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "77652862": {
-    "id": "77652862",
-    "name": "Participant 77652862",
+    "nom": "Participant 77652862",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "68882D32": {
-    "id": "68882D32",
-    "name": "Participant 68882D32",
+    "nom": "Participant 68882D32",
     "region": "Strasbourg",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "48BE7913": {
-    "id": "48BE7913",
-    "name": "Participant 48BE7913",
+    "nom": "Participant 48BE7913",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "A1982822": {
-    "id": "A1982822",
-    "name": "Participant A1982822",
+    "nom": "Participant A1982822",
     "region": "Strasbourg",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "BC3BFC75": {
-    "id": "BC3BFC75",
-    "name": "Participant BC3BFC75",
+    "nom": "Participant BC3BFC75",
     "region": "Strasbourg",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "65E08C4A": {
-    "id": "65E08C4A",
-    "name": "Participant 65E08C4A",
+    "nom": "Participant 65E08C4A",
     "region": "SUISSE",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "C80DEFBB": {
-    "id": "C80DEFBB",
-    "name": "Participant C80DEFBB",
+    "nom": "Participant C80DEFBB",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Jeu enquête",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "EC085A33": {
-    "id": "EC085A33",
-    "name": "Participant EC085A33",
+    "nom": "Participant EC085A33",
     "region": "Strasbourg",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "F7C9B2CD": {
-    "id": "F7C9B2CD",
-    "name": "Participant F7C9B2CD",
+    "nom": "Participant F7C9B2CD",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "5746116C": {
-    "id": "5746116C",
-    "name": "Participant 5746116C",
+    "nom": "Participant 5746116C",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "FBF5DA66": {
-    "id": "FBF5DA66",
-    "name": "Participant FBF5DA66",
+    "nom": "Participant FBF5DA66",
     "region": "Aix-Marseille",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "C5D84E56": {
-    "id": "C5D84E56",
-    "name": "Participant C5D84E56",
+    "nom": "Participant C5D84E56",
     "region": "Aquitaine",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "7E255455": {
-    "id": "7E255455",
-    "name": "Participant 7E255455",
+    "nom": "Participant 7E255455",
     "region": "Bourgogne",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "669EA869": {
-    "id": "669EA869",
-    "name": "Participant 669EA869",
+    "nom": "Participant 669EA869",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "F08DBB18": {
-    "id": "F08DBB18",
-    "name": "Participant F08DBB18",
+    "nom": "Participant F08DBB18",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "517EB7A1": {
-    "id": "517EB7A1",
-    "name": "Participant 517EB7A1",
+    "nom": "Participant 517EB7A1",
     "region": "Aix-Marseille",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "84DE7FF9": {
-    "id": "84DE7FF9",
-    "name": "Participant 84DE7FF9",
+    "nom": "Participant 84DE7FF9",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite Rade Enfant",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D54C2FC7": {
-    "id": "D54C2FC7",
-    "name": "Participant D54C2FC7",
+    "nom": "Participant D54C2FC7",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "BF951082": {
-    "id": "BF951082",
-    "name": "Participant BF951082",
+    "nom": "Participant BF951082",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E2FCC285": {
-    "id": "E2FCC285",
-    "name": "Participant E2FCC285",
+    "nom": "Participant E2FCC285",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "8643ADAE": {
-    "id": "8643ADAE",
-    "name": "Participant 8643ADAE",
+    "nom": "Participant 8643ADAE",
     "region": "BELGIQUE ",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "F220573F": {
-    "id": "F220573F",
-    "name": "Participant F220573F",
+    "nom": "Participant F220573F",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "C7FB1BC1": {
-    "id": "C7FB1BC1",
-    "name": "Participant C7FB1BC1",
+    "nom": "Participant C7FB1BC1",
     "region": "Lorraine",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "A269F85B": {
-    "id": "A269F85B",
-    "name": "Participant A269F85B",
+    "nom": "Participant A269F85B",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "4C0436A3": {
-    "id": "4C0436A3",
-    "name": "Participant 4C0436A3",
+    "nom": "Participant 4C0436A3",
     "region": "Strasbourg",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "2639A3EC": {
-    "id": "2639A3EC",
-    "name": "Participant 2639A3EC",
+    "nom": "Participant 2639A3EC",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "86BAC506": {
-    "id": "86BAC506",
-    "name": "Participant 86BAC506",
+    "nom": "Participant 86BAC506",
     "region": "Centre-Val de Loire",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BD04FD3C": {
-    "id": "BD04FD3C",
-    "name": "Participant BD04FD3C",
+    "nom": "Participant BD04FD3C",
     "region": "Secrétaire",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D78B24A2": {
-    "id": "D78B24A2",
-    "name": "Participant D78B24A2",
+    "nom": "Participant D78B24A2",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "A40082AB": {
-    "id": "A40082AB",
-    "name": "Participant A40082AB",
+    "nom": "Participant A40082AB",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "E9F1E175": {
-    "id": "E9F1E175",
-    "name": "Participant E9F1E175",
+    "nom": "Participant E9F1E175",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D5B2AE18": {
-    "id": "D5B2AE18",
-    "name": "Participant D5B2AE18",
+    "nom": "Participant D5B2AE18",
     "region": "Aix-Marseille",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "740E58AE": {
-    "id": "740E58AE",
-    "name": "Participant 740E58AE",
+    "nom": "Participant 740E58AE",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "CD6AEFA2": {
-    "id": "CD6AEFA2",
-    "name": "Participant CD6AEFA2",
+    "nom": "Participant CD6AEFA2",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "6B16B5AB": {
-    "id": "6B16B5AB",
-    "name": "Participant 6B16B5AB",
+    "nom": "Participant 6B16B5AB",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "18D2B558": {
-    "id": "18D2B558",
-    "name": "Participant 18D2B558",
+    "nom": "Participant 18D2B558",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "3C0BF7C5": {
-    "id": "3C0BF7C5",
-    "name": "Participant 3C0BF7C5",
+    "nom": "Participant 3C0BF7C5",
     "region": "Nice-Corse",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "79FFC6D8": {
-    "id": "79FFC6D8",
-    "name": "Participant 79FFC6D8",
+    "nom": "Participant 79FFC6D8",
     "region": "Lorraine",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "6EC8D4B4": {
-    "id": "6EC8D4B4",
-    "name": "Participant 6EC8D4B4",
+    "nom": "Participant 6EC8D4B4",
     "region": "Bureau national",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Jeu enquête",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "C07C99C7": {
-    "id": "C07C99C7",
-    "name": "Participant C07C99C7",
+    "nom": "Participant C07C99C7",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "75A9158F": {
-    "id": "75A9158F",
-    "name": "Participant 75A9158F",
+    "nom": "Participant 75A9158F",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "F6609C6E": {
-    "id": "F6609C6E",
-    "name": "Participant F6609C6E",
+    "nom": "Participant F6609C6E",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "254A3A0C": {
-    "id": "254A3A0C",
-    "name": "Participant 254A3A0C",
+    "nom": "Participant 254A3A0C",
     "region": "Lyon",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "739985E2": {
-    "id": "739985E2",
-    "name": "Participant 739985E2",
+    "nom": "Participant 739985E2",
     "region": "Centre-Val de Loire",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "0AEFB31A": {
-    "id": "0AEFB31A",
-    "name": "Participant 0AEFB31A",
+    "nom": "Participant 0AEFB31A",
     "region": "Aix-Marseille",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "D2EDFF2D": {
-    "id": "D2EDFF2D",
-    "name": "Participant D2EDFF2D",
+    "nom": "Participant D2EDFF2D",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "B37AEA77": {
-    "id": "B37AEA77",
-    "name": "Participant B37AEA77",
+    "nom": "Participant B37AEA77",
     "region": "Basse-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "BB0D87B5": {
-    "id": "BB0D87B5",
-    "name": "Participant BB0D87B5",
+    "nom": "Participant BB0D87B5",
     "region": "Franche-Comté",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "971F041E": {
-    "id": "971F041E",
-    "name": "Participant 971F041E",
+    "nom": "Participant 971F041E",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "4C1A7E77": {
-    "id": "4C1A7E77",
-    "name": "Participant 4C1A7E77",
+    "nom": "Participant 4C1A7E77",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "A882394D": {
-    "id": "A882394D",
-    "name": "Participant A882394D",
+    "nom": "Participant A882394D",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "49FD8F5B": {
-    "id": "49FD8F5B",
-    "name": "Participant 49FD8F5B",
+    "nom": "Participant 49FD8F5B",
     "region": "Grenoble",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D887ECF4": {
-    "id": "D887ECF4",
-    "name": "Participant D887ECF4",
+    "nom": "Participant D887ECF4",
     "region": "Picardie",
-    "events": [
+    "evenements": [
       {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "D0D73A66": {
-    "id": "D0D73A66",
-    "name": "Participant D0D73A66",
+    "nom": "Participant D0D73A66",
     "region": "La Réunion",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "82935162": {
-    "id": "82935162",
-    "name": "Participant 82935162",
+    "nom": "Participant 82935162",
     "region": "BELGIQUE",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "6C47CF8E": {
-    "id": "6C47CF8E",
-    "name": "Participant 6C47CF8E",
+    "nom": "Participant 6C47CF8E",
     "region": "Aquitaine",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "9E222C70": {
-    "id": "9E222C70",
-    "name": "Participant 9E222C70",
+    "nom": "Participant 9E222C70",
     "region": "Aquitaine",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "70EFA6B8": {
-    "id": "70EFA6B8",
-    "name": "Participant 70EFA6B8",
+    "nom": "Participant 70EFA6B8",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "DA42D2D3": {
-    "id": "DA42D2D3",
-    "name": "Participant DA42D2D3",
+    "nom": "Participant DA42D2D3",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Découverte ville",
-        "time": "Dimanche 9h15"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Dimanche 14h45"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "49FE2CEB": {
-    "id": "49FE2CEB",
-    "name": "Participant 49FE2CEB",
+    "nom": "Participant 49FE2CEB",
     "region": "Centre-Val de Loire",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Visite SHD",
-        "time": "Mardi 14h"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "EB1EFB21": {
-    "id": "EB1EFB21",
-    "name": "Participant EB1EFB21",
+    "nom": "Participant EB1EFB21",
     "region": "Haute-Normandie",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "CC15EA5F": {
-    "id": "CC15EA5F",
-    "name": "Participant CC15EA5F",
+    "nom": "Participant CC15EA5F",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "59FA8C7E": {
-    "id": "59FA8C7E",
-    "name": "Participant 59FA8C7E",
+    "nom": "Participant 59FA8C7E",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "30049577": {
-    "id": "30049577",
-    "name": "Participant 30049577",
+    "nom": "Participant 30049577",
     "region": "Lyon",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "B16458E7": {
-    "id": "B16458E7",
-    "name": "Participant B16458E7",
+    "nom": "Participant B16458E7",
     "region": "Montpellier",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
-      },
-      {
-        "name": "Circuit Fontaines",
-        "time": "Mardi 14h"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "6F0860E0": {
-    "id": "6F0860E0",
-    "name": "Participant 6F0860E0",
+    "nom": "Participant 6F0860E0",
     "region": "Bretagne",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "1FB9122A": {
-    "id": "1FB9122A",
-    "name": "Participant 1FB9122A",
+    "nom": "Participant 1FB9122A",
     "region": "Toulouse",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "1DA33446": {
-    "id": "1DA33446",
-    "name": "Participant 1DA33446",
+    "nom": "Participant 1DA33446",
     "region": "Lyon",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "3964195D": {
-    "id": "3964195D",
-    "name": "Participant 3964195D",
+    "nom": "Participant 3964195D",
     "region": "Lyon",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "B159D9EF": {
-    "id": "B159D9EF",
-    "name": "Participant B159D9EF",
+    "nom": "Participant B159D9EF",
     "region": "Lyon",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "F6BDF9DC": {
-    "id": "F6BDF9DC",
-    "name": "Participant F6BDF9DC",
+    "nom": "Participant F6BDF9DC",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "B8A409E9": {
-    "id": "B8A409E9",
-    "name": "Participant B8A409E9",
+    "nom": "Participant B8A409E9",
     "region": "Aquitaine",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "96D5891E": {
-    "id": "96D5891E",
-    "name": "Participant 96D5891E",
+    "nom": "Participant 96D5891E",
     "region": "Nice-Corse",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "91B99E28": {
-    "id": "91B99E28",
-    "name": "Participant 91B99E28",
+    "nom": "Participant 91B99E28",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "43FD12C2": {
-    "id": "43FD12C2",
-    "name": "Participant 43FD12C2",
+    "nom": "Participant 43FD12C2",
     "region": "Lorraine",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "2DE18A5B": {
-    "id": "2DE18A5B",
-    "name": "Participant 2DE18A5B",
+    "nom": "Participant 2DE18A5B",
     "region": "Lorraine",
-    "events": [
+    "evenements": [
       {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "467B150D": {
-    "id": "467B150D",
-    "name": "Participant 467B150D",
+    "nom": "Participant 467B150D",
     "region": "Centre-Val de Loire",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "48247814": {
-    "id": "48247814",
-    "name": "Participant 48247814",
+    "nom": "Participant 48247814",
     "region": "Ile-de-France",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "7B63379F": {
-    "id": "7B63379F",
-    "name": "Participant 7B63379F",
+    "nom": "Participant 7B63379F",
     "region": "Centre-Val de Loire",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Dimanche midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "2990EEBE": {
-    "id": "2990EEBE",
-    "name": "Participant 2990EEBE",
+    "nom": "Participant 2990EEBE",
     "region": "Haute-Normandie",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Mardi midi"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
+        "nom": "Repas APMEP",
+        "horaire": "Dimanche midi"
       },
       {
-        "name": "Visite Rade Adulte",
-        "time": "Mardi 13h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Conférence L1-01",
-        "time": "Lundi 8h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
+      },
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "150D662D": {
-    "id": "150D662D",
-    "name": "Participant 150D662D",
+    "nom": "Participant 150D662D",
     "region": "Lyon",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "9D396D24": {
-    "id": "9D396D24",
-    "name": "Participant 9D396D24",
+    "nom": "Participant 9D396D24",
     "region": "Ile-de-France",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
-      },
-      {
-        "name": "Conférence L1-02",
-        "time": "Lundi 8h30"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "425765EA": {
-    "id": "425765EA",
-    "name": "Participant 425765EA",
+    "nom": "Participant 425765EA",
     "region": "Strasbourg",
-    "events": [
+    "evenements": [
       {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "3413CCBE": {
-    "id": "3413CCBE",
-    "name": "Participant 3413CCBE",
+    "nom": "Participant 3413CCBE",
     "region": "Inconnue",
-    "events": [
+    "evenements": [
       {
-        "name": "Histoire en musique Adulte",
-        "time": "Samedi 20h30"
+        "nom": "Repas Festif",
+        "horaire": "Lundi 19h30"
       },
       {
-        "name": "Repas Festif",
-        "time": "Lundi 19h30"
-      },
-      {
-        "name": "Repas APMEP",
-        "time": "Lundi midi"
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
       }
     ]
   },
   "098E5EC2": {
-    "id": "098E5EC2",
-    "name": "Participant 098E5EC2",
+    "nom": "Participant 098E5EC2",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "2F36F546": {
-    "id": "2F36F546",
-    "name": "Participant 2F36F546",
+    "nom": "Participant 2F36F546",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "76E791A7": {
-    "id": "76E791A7",
-    "name": "Participant 76E791A7",
+    "nom": "Participant 76E791A7",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "CD3F95A8": {
-    "id": "CD3F95A8",
-    "name": "Participant CD3F95A8",
+    "nom": "Participant CD3F95A8",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   },
   "6A2A77DE": {
-    "id": "6A2A77DE",
-    "name": "Participant 6A2A77DE",
+    "nom": "Participant 6A2A77DE",
     "region": "Inconnue",
-    "events": []
+    "evenements": [
+      {
+        "nom": "Conference cloture",
+        "horaire": "Mardi 11h"
+      }
+    ]
   }
 };
+// Configuration Supabase
+const supabaseUrl = 'https://nbrutmsaunnenjbccpmb.supabase.co'
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5icnV0bXNhdW5uZW5qYmNjcG1iIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE5MDQ2MDAsImV4cCI6MjA2NzQ4MDYwMH0.NoObPP9vpl-ME0f8oYwXVtf6nuTpVbmEuoWMmbyCrL4'
 
-// Variables globales
-let html5QrcodeScanner = null;
-let cameraStarted = false;
-
-// Éléments DOM
-const elements = {
-  tabButtons: document.querySelectorAll('.tab-button'),
-  tabContents: document.querySelectorAll('.tab-content'),
-  startCameraBtn: document.getElementById('startCamera'),
-  stopCameraBtn: document.getElementById('stopCamera'),
-  imageUpload: document.getElementById('imageUpload'),
-  scanImageBtn: document.getElementById('scanImage'),
-  searchInput: document.getElementById('searchInput'),
-  searchButton: document.getElementById('searchButton'),
-  scanResult: document.getElementById('scanResult'),
-  participantInfo: document.getElementById('participantInfo'),
-  statusMessage: document.getElementById('statusMessage'),
-  newScanBtn: document.getElementById('newScan'),
-  newSearchBtn: document.getElementById('newSearch'),
-  testImages: document.querySelectorAll('.test-qr'),
-  testIdButtons: document.querySelectorAll('.test-id-btn')
-};
+// Initialisation des variables globales
+let supabase = null;
+let html5QrCode = null;
+let currentParticipant = null;
+let validationsData = {};
+let realtimeChannel = null;
 
 // Initialisation de l'application
 document.addEventListener('DOMContentLoaded', function() {
   initializeApp();
+  initializeEventListeners();
+  initializeSupabase();
 });
 
-function initializeApp() {
-  setupTabs();
-  setupScanner();
-  setupSearch();
-  setupTestImages();
-  setupTestIdButtons();
-}
-
-// Gestion des onglets
-function setupTabs() {
-  elements.tabButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      const tabName = button.dataset.tab;
+// Initialisation des événements
+function initializeEventListeners() {
+  // Gestion des onglets
+  document.querySelectorAll('.tab-button').forEach(button => {
+    button.addEventListener('click', function() {
+      const tabName = this.dataset.tab;
       switchTab(tabName);
     });
   });
-}
 
-function switchTab(tabName) {
-  // Arrêter la caméra si elle est active
-  if (cameraStarted) {
-    stopCamera();
-  }
+  // Scanner QR
+  document.getElementById('startScan').addEventListener('click', startQRScanner);
+  document.getElementById('stopScan').addEventListener('click', stopQRScanner);
+  document.getElementById('qr-file-input').addEventListener('change', handleFileUpload);
 
-  // Masquer tous les résultats
-  elements.scanResult.style.display = 'none';
-  elements.participantInfo.style.display = 'none';
-
-  // Changer les onglets actifs
-  elements.tabButtons.forEach(btn => btn.classList.remove('active'));
-  elements.tabContents.forEach(content => content.classList.remove('active'));
-
-  document.querySelector(`[data-tab="${tabName}"]`).classList.add('active');
-  document.getElementById(tabName).classList.add('active');
-}
-
-// Configuration du scanner
-function setupScanner() {
-  elements.startCameraBtn.addEventListener('click', startCamera);
-  elements.stopCameraBtn.addEventListener('click', stopCamera);
-  elements.scanImageBtn.addEventListener('click', scanImageFile);
-  elements.newScanBtn.addEventListener('click', resetScanner);
-}
-
-function startCamera() {
-  if (cameraStarted) return;
-
-  const readerElement = document.getElementById('reader');
-  readerElement.style.display = 'block';
-
-  html5QrcodeScanner = new Html5Qrcode("reader");
-
- Html5Qrcode.getCameras().then(devices => {
-    if (devices && devices.length) {
-      let cameraId = devices[0].id;
-for (let device of devices) {
-  if (device.label.toLowerCase().includes('back') || device.label.toLowerCase().includes('environment')) {
-    cameraId = device.id;
-    break;
-  }
-}
-
-      html5QrcodeScanner.start(
-        cameraId,
-        {
-          fps: 10,
-          qrbox: { width: 250, height: 250 }
-        },
-        (decodedText, decodedResult) => {
-          onScanSuccess(decodedText);
-        },
-        (errorMessage) => {
-          // Ignore les erreurs répétées de scan
-        }
-      ).then(() => {
-        cameraStarted = true;
-        elements.startCameraBtn.style.display = 'none';
-        elements.stopCameraBtn.style.display = 'inline-flex';
-        showStatus('Caméra démarrée avec succès', 'success');
-      }).catch(err => {
-        showStatus('Erreur lors du démarrage de la caméra: ' + err, 'error');
-      });
-    } else {
-      showStatus('Aucune caméra détectée', 'error');
-    }
-  }).catch(err => {
-    showStatus('Erreur d\'accès aux caméras: ' + err, 'error');
-  });
-}
-
-function stopCamera() {
-  if (!cameraStarted || !html5QrcodeScanner) return;
-
-  html5QrcodeScanner.stop().then(() => {
-    cameraStarted = false;
-    elements.startCameraBtn.style.display = 'inline-flex';
-    elements.stopCameraBtn.style.display = 'none';
-    document.getElementById('reader').style.display = 'none';
-    showStatus('Caméra arrêtée', 'info');
-  }).catch(err => {
-    showStatus('Erreur lors de l\'arrêt de la caméra: ' + err, 'error');
-  });
-}
-
-function scanImageFile() {
-  const file = elements.imageUpload.files[0];
-  if (!file) {
-    showStatus('Veuillez sélectionner une image', 'error');
-    return;
-  }
-
-  const html5QrCode = new Html5Qrcode("reader");
-  html5QrCode.scanFile(file, true)
-    .then(decodedText => {
-      onScanSuccess(decodedText);
-    })
-    .catch(err => {
-      showStatus('Impossible de décoder le QR code dans l\'image: ' + err, 'error');
-    });
-}
-
-function onScanSuccess(decodedText) {
-  const participantId = decodedText.trim();
-
-  if (cameraStarted) {
-    stopCamera();
-  }
-
-  displayParticipant(participantId, 'scan');
-}
-
-// Configuration de la recherche
-function setupSearch() {
-  elements.searchButton.addEventListener('click', searchParticipant);
-  elements.searchInput.addEventListener('keypress', (e) => {
+  // Recherche par ID
+  document.getElementById('searchBtn').addEventListener('click', searchParticipant);
+  document.getElementById('searchId').addEventListener('keypress', function(e) {
     if (e.key === 'Enter') {
       searchParticipant();
     }
   });
-  elements.newSearchBtn.addEventListener('click', resetSearch);
+
+  // Boutons de test
+  document.querySelectorAll('.test-id-btn').forEach(button => {
+    button.addEventListener('click', function() {
+      const testId = this.dataset.id;
+      displayParticipant(testId);
+    });
+  });
+
+  document.getElementById('testConnection').addEventListener('click', testSupabaseConnection);
 }
 
-function searchParticipant() {
-  const participantId = elements.searchInput.value.trim().toUpperCase();
+// Initialisation de l'application
+function initializeApp() {
+  updateConnectionStatus('Initialisation...', 'info');
+  loadValidationsData();
+  updateStatistics();
+}
 
-  if (!participantId) {
-    showStatus('Veuillez entrer un ID participant', 'error');
+// Initialisation de Supabase
+async function initializeSupabase() {
+  try {
+    if (supabaseUrl === 'VOTRE_SUPABASE_URL' || supabaseKey === 'VOTRE_SUPABASE_ANON_KEY') {
+      updateConnectionStatus('Configuration Supabase requise', 'warning');
+      return;
+    }
+	supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
+
+    // Authentification anonyme
+    const { data, error } = await supabase.auth.signInAnonymously();
+
+    if (error) {
+      throw error;
+    }
+
+    updateConnectionStatus('Connecté à Supabase', 'success');
+
+    // Charger les données existantes
+    await loadValidationsFromSupabase();
+
+    // Initialiser les subscriptions en temps réel
+    initializeRealtimeSubscriptions();
+
+  } catch (error) {
+    console.error('Erreur initialisation Supabase:', error);
+    updateConnectionStatus('Erreur connexion Supabase', 'error');
+  }
+}
+
+
+// Gestion des onglets
+function switchTab(tabName) {
+  // Mise à jour des boutons
+  document.querySelectorAll('.tab-button').forEach(button => {
+    button.classList.remove('active');
+  });
+  document.querySelector(`[data-tab="${tabName}"]`).classList.add('active');
+
+  // Mise à jour du contenu
+  document.querySelectorAll('.tab-panel').forEach(panel => {
+    panel.classList.remove('active');
+  });
+  document.getElementById(tabName).classList.add('active');
+
+  // Mise à jour des statistiques si on va sur l'onglet statistiques
+  if (tabName === 'statistiques') {
+    updateStatistics();
+  }
+}
+
+// Scanner QR
+function startQRScanner() {
+  const qrReaderElement = document.getElementById('qr-reader');
+
+  if (!html5QrCode) {
+    html5QrCode = new Html5Qrcode("qr-reader");
+  }
+
+  const config = {
+    fps: 10,
+    qrbox: { width: 250, height: 250 },
+    aspectRatio: 1.0
+  };
+
+  html5QrCode.start(
+    { facingMode: "environment" },
+    config,
+    (decodedText) => {
+      handleQRCodeResult(decodedText);
+    },
+    (errorMessage) => {
+      // Ignorer les erreurs de scan normales
+    }
+  ).then(() => {
+    document.getElementById('startScan').classList.add('hidden');
+    document.getElementById('stopScan').classList.remove('hidden');
+  }).catch(err => {
+    console.error('Erreur démarrage scanner:', err);
+    showScanResult('Erreur: Impossible d\'accéder à la caméra', 'error');
+  });
+}
+
+function stopQRScanner() {
+  if (html5QrCode) {
+    html5QrCode.stop().then(() => {
+      document.getElementById('startScan').classList.remove('hidden');
+      document.getElementById('stopScan').classList.add('hidden');
+    }).catch(err => {
+      console.error('Erreur arrêt scanner:', err);
+    });
+  }
+}
+
+function handleFileUpload(event) {
+  const file = event.target.files[0];
+  if (file) {
+    if (!html5QrCode) {
+      html5QrCode = new Html5Qrcode("qr-reader");
+    }
+
+    html5QrCode.scanFile(file, true)
+      .then(decodedText => {
+        handleQRCodeResult(decodedText);
+      })
+      .catch(err => {
+        showScanResult('Erreur: Aucun QR code détecté dans l\'image', 'error');
+      });
+  }
+}
+
+function handleQRCodeResult(decodedText) {
+  showScanResult(`QR Code détecté: ${decodedText}`, 'success');
+  displayParticipant(decodedText);
+}
+
+function showScanResult(message, type) {
+  const resultDiv = document.getElementById('scan-result');
+  resultDiv.textContent = message;
+  resultDiv.className = `scan-result test-result ${type}`;
+  resultDiv.classList.remove('hidden');
+}
+
+// Recherche par ID
+function searchParticipant() {
+  const searchId = document.getElementById('searchId').value.trim();
+  if (!searchId) {
+    showSearchResult('Veuillez entrer un ID', 'error');
     return;
   }
 
-  displayParticipant(participantId, 'search');
+  displayParticipant(searchId);
 }
 
-// Configuration des images de test
-function setupTestImages() {
-  elements.testImages.forEach(img => {
-    img.addEventListener('click', () => {
-      const participantId = img.dataset.id;
-      showStatus('Test avec l\'ID: ' + participantId, 'info');
-      displayParticipant(participantId, 'scan');
-    });
-  });
+function showSearchResult(message, type) {
+  const resultDiv = document.getElementById('search-result');
+  resultDiv.textContent = message;
+  resultDiv.className = `search-result test-result ${type}`;
+  resultDiv.classList.remove('hidden');
 }
 
-// Configuration des boutons d'ID de test
-function setupTestIdButtons() {
-  elements.testIdButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const participantId = btn.dataset.id;
-      elements.searchInput.value = participantId;
-      showStatus('ID de test sélectionné: ' + participantId, 'info');
-      displayParticipant(participantId, 'search');
-    });
-  });
-}
-
-// Affichage des informations participant
-function displayParticipant(participantId, source) {
+// Affichage des participants
+function displayParticipant(participantId) {
   const participant = participantsDatabase[participantId];
 
   if (!participant) {
-    showStatus(`Participant non trouvé: ${participantId}`, 'error');
+    showSearchResult('Participant non trouvé', 'error');
     return;
   }
 
-  showStatus(`Participant trouvé: ${participant.name}`, 'success');
+  currentParticipant = participantId;
 
-  const content = createParticipantContent(participant);
+  // Mettre à jour l'interface
+  document.getElementById('participantName').textContent = participant.nom;
+  document.getElementById('participantRegion').textContent = `Région: ${participant.region}`;
 
-  if (source === 'scan') {
-    elements.scanResult.querySelector('#scanResultContent').innerHTML = content;
-    elements.scanResult.style.display = 'block';
-    elements.participantInfo.style.display = 'none';
-  } else {
-    elements.participantInfo.querySelector('#participantInfoContent').innerHTML = content;
-    elements.participantInfo.style.display = 'block';
-    elements.scanResult.style.display = 'none';
+  // Afficher les événements
+  displayEvents(participantId, participant.evenements);
+
+  // Afficher la section participant
+  document.getElementById('participantDisplay').classList.remove('hidden');
+
+  showSearchResult(`Participant ${participantId} trouvé`, 'success');
+}
+
+function displayEvents(participantId, events) {
+  const eventsList = document.getElementById('eventsList');
+  eventsList.innerHTML = '';
+
+  if (events.length === 0) {
+    eventsList.innerHTML = '<p>Aucun événement pour ce participant.</p>';
+    return;
+  }
+
+  events.forEach((event, index) => {
+    const eventDiv = document.createElement('div');
+    eventDiv.className = 'event-item';
+    eventDiv.setAttribute('tabindex', '0');
+
+    const status = getEventStatus(participantId, index);
+    eventDiv.classList.add(status);
+
+    eventDiv.innerHTML = `
+      <div class="event-info">
+        <div class="event-name">${event.nom}</div>
+        <div class="event-schedule">${event.horaire}</div>
+      </div>
+      <div class="event-status ${status}">
+        ${getStatusLabel(status)}
+      </div>
+      <div class="sync-indicator" style="display: none;"></div>
+    `;
+
+    eventDiv.addEventListener('click', () => toggleEventStatus(participantId, index));
+    eventDiv.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        toggleEventStatus(participantId, index);
+      }
+    });
+
+    eventsList.appendChild(eventDiv);
+  });
+}
+
+function getEventStatus(participantId, eventIndex) {
+  const key = `${participantId}-${eventIndex}`;
+  return validationsData[key] || 'none';
+}
+
+function getStatusLabel(status) {
+  switch(status) {
+    case 'validated': return 'Validé';
+    case 'invalidated': return 'Invalidé';
+    default: return 'Non traité';
   }
 }
 
-function createParticipantContent(participant) {
-  const eventsHtml = participant.events.length > 0
-    ? participant.events.map(event => `
-        <div class="event-item">
-          <div class="event-name">${event.name}</div>
-          <div class="event-time">${event.time}</div>
+function toggleEventStatus(participantId, eventIndex) {
+  const currentStatus = getEventStatus(participantId, eventIndex);
+  let newStatus;
+
+  // Cycle: none -> validated -> invalidated -> none
+  switch(currentStatus) {
+    case 'none': newStatus = 'validated'; break;
+    case 'validated': newStatus = 'invalidated'; break;
+    case 'invalidated': newStatus = 'none'; break;
+    default: newStatus = 'validated';
+  }
+
+  updateEventValidation(participantId, eventIndex, newStatus);
+}
+
+async function updateEventValidation(participantId, eventIndex, status) {
+  const key = `${participantId}-${eventIndex}`;
+  const syncIndicator = document.querySelector(`[data-key="${key}"] .sync-indicator`);
+
+  // Mise à jour optimiste de l'interface
+  validationsData[key] = status;
+  updateEventDisplay(participantId, eventIndex, status);
+
+  // Afficher l'indicateur de synchronisation
+  if (syncIndicator) {
+    syncIndicator.style.display = 'block';
+    syncIndicator.classList.add('syncing');
+  }
+
+  // Sauvegarder dans Supabase
+  if (supabase) {
+    try {
+      const { error } = await supabase
+        .from('event_validations')
+        .upsert({
+          participant_id: participantId,
+          event_index: eventIndex,
+          status: status,
+          validated_at: new Date().toISOString()
+        });
+
+      if (error) throw error;
+
+      // Synchronisation réussie
+      if (syncIndicator) {
+        syncIndicator.classList.remove('syncing');
+        setTimeout(() => {
+          syncIndicator.style.display = 'none';
+        }, 1000);
+      }
+
+    } catch (error) {
+      console.error('Erreur sauvegarde:', error);
+
+      // Afficher l'erreur
+      if (syncIndicator) {
+        syncIndicator.classList.remove('syncing');
+        syncIndicator.classList.add('error');
+      }
+    }
+  }
+
+  // Mettre à jour les statistiques
+  updateStatistics();
+}
+
+function updateEventDisplay(participantId, eventIndex, status) {
+  const eventsList = document.getElementById('eventsList');
+  const eventItems = eventsList.querySelectorAll('.event-item');
+
+  if (eventItems[eventIndex]) {
+    const eventItem = eventItems[eventIndex];
+    const statusElement = eventItem.querySelector('.event-status');
+
+    // Mettre à jour les classes
+    eventItem.className = `event-item ${status}`;
+    statusElement.className = `event-status ${status}`;
+    statusElement.textContent = getStatusLabel(status);
+  }
+}
+
+// Chargement des données depuis Supabase
+async function loadValidationsFromSupabase() {
+  if (!supabase) return;
+
+  try {
+    const { data, error } = await supabase
+      .from('event_validations')
+      .select('*');
+
+    if (error) throw error;
+
+    // Mettre à jour les données locales
+    data.forEach(validation => {
+      const key = `${validation.participant_id}-${validation.event_index}`;
+      validationsData[key] = validation.status;
+    });
+
+    // Mettre à jour l'affichage si un participant est sélectionné
+    if (currentParticipant) {
+      const participant = participantsDatabase[currentParticipant];
+      if (participant) {
+        displayEvents(currentParticipant, participant.evenements);
+      }
+    }
+
+    updateStatistics();
+
+  } catch (error) {
+    console.error('Erreur chargement données:', error);
+  }
+}
+
+// Subscriptions en temps réel
+function initializeRealtimeSubscriptions() {
+  if (!supabase) return;
+
+  realtimeChannel = supabase
+    .channel('validations')
+    .on('postgres_changes',
+      { event: '*', schema: 'public', table: 'event_validations' },
+      handleRealTimeUpdate
+    )
+    .subscribe();
+}
+
+function handleRealTimeUpdate(payload) {
+  const { eventType, new: newRecord, old: oldRecord } = payload;
+
+  if (eventType === 'INSERT' || eventType === 'UPDATE') {
+    const key = `${newRecord.participant_id}-${newRecord.event_index}`;
+    validationsData[key] = newRecord.status;
+
+    // Mettre à jour l'affichage si c'est le participant actuel
+    if (currentParticipant === newRecord.participant_id) {
+      updateEventDisplay(newRecord.participant_id, newRecord.event_index, newRecord.status);
+    }
+  }
+
+  updateStatistics();
+}
+
+// Chargement des données locales
+function loadValidationsData() {
+  // Ici on pourrait charger depuis une source locale si nécessaire
+  // Pour l'instant, on initialise avec des données vides
+  validationsData = {};
+}
+
+// Mise à jour des statistiques
+function updateStatistics() {
+  const stats = calculateStatistics();
+
+  document.getElementById('totalValidations').textContent = stats.totalValidations;
+  document.getElementById('totalInvalidations').textContent = stats.totalInvalidations;
+  document.getElementById('validationRate').textContent = `${stats.validationRate}%`;
+
+  displayEventStatistics(stats.eventStats);
+}
+
+
+function calculateStatistics() {
+  const stats = {
+    totalValidations: 0,
+    totalInvalidations: 0,
+    validationRate: 0,
+    eventStats: {}
+  };
+
+  // Analyser toutes les validations
+  Object.values(validationsData).forEach(status => {
+    if (status === 'validated') {
+      stats.totalValidations++;
+    } else if (status === 'invalidated') {
+      stats.totalInvalidations++;
+    }
+  });
+
+  // Calculer le taux de validation
+  const total = stats.totalValidations + stats.totalInvalidations;
+  if (total > 0) {
+    stats.validationRate = Math.round((stats.totalValidations / total) * 100);
+  }
+
+  // Statistiques par événement
+  Object.keys(participantsDatabase).forEach(participantId => {
+    const participant = participantsDatabase[participantId];
+    participant.evenements.forEach((event, index) => {
+	  // Si c'est un repas, on forme un nom unique "Repas APMEP (Lundi midi)"
+		let eventName = event.nom;
+		if (event.nom && event.nom.toLowerCase().includes("repas") && event.horaire) {
+			eventName = event.nom + " (" + event.horaire + ")";
+		}
+		if (!stats.eventStats[eventName]) {
+			stats.eventStats[eventName] = {
+			validated: 0,
+			invalidated: 0,
+			none: 0
+			};
+      }
+
+      const status = getEventStatus(participantId, index);
+      stats.eventStats[eventName][status]++;
+
+    });
+  });
+
+  return stats;
+}
+
+function displayEventStatistics(eventStats) {
+  const eventStatsDiv = document.getElementById('eventStats');
+  eventStatsDiv.innerHTML = '';
+
+  Object.entries(eventStats).forEach(([eventName, counts]) => {
+    const total = counts.validated + counts.invalidated + counts.none;
+    const validationRate = total > 0 ? Math.round((counts.validated / total) * 100) : 0;
+
+    const statDiv = document.createElement('div');
+    statDiv.className = 'event-stat';
+    statDiv.innerHTML = `
+      <div class="event-stat-name">${eventName}</div>
+      <div class="event-stat-counts">
+        <div class="stat-count validated">
+          ✓ ${counts.validated}
         </div>
-      `).join('')
-    : '<div class="empty-state"><h4>Aucun événement</h4><p>Ce participant n\'a pas d\'événements enregistrés.</p></div>';
-
-  return `
-    <div class="participant-card">
-      <h4>${participant.name}</h4>
-      <div class="region">📍 ${participant.region}</div>
-      <div class="id">ID: ${participant.id}</div>
-    </div>
-
-    <div class="events-section">
-      <h5>Événements inscrits (${participant.events.length})</h5>
-      <div class="events-list">
-        ${eventsHtml}
+        <div class="stat-count invalidated">
+          ✗ ${counts.invalidated}
+        </div>
+        <div class="stat-count none">
+          ○ ${counts.none}
+        </div>
       </div>
-    </div>
-  `;
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: ${validationRate}%"></div>
+      </div>
+    `;
+
+    eventStatsDiv.appendChild(statDiv);
+  });
 }
 
-// Fonctions de réinitialisation
-function resetScanner() {
-  elements.scanResult.style.display = 'none';
-  elements.imageUpload.value = '';
-  showStatus('Prêt pour un nouveau scan', 'info');
+// Test de connexion Supabase
+async function testSupabaseConnection() {
+  const testButton = document.getElementById('testConnection');
+  const resultDiv = document.getElementById('connectionTest');
+
+  testButton.textContent = 'Test en cours...';
+  testButton.disabled = true;
+
+  try {
+    if (!supabase) {
+      throw new Error('Supabase non initialisé');
+    }
+
+    // Test simple de lecture
+    const { data, error } = await supabase
+      .from('event_validations')
+      .select('count', { count: 'exact' });
+
+    if (error) throw error;
+
+    resultDiv.textContent = `Connexion réussie! ${data.length} enregistrements trouvés.`;
+    resultDiv.className = 'test-result success';
+
+  } catch (error) {
+    resultDiv.textContent = `Erreur de connexion: ${error.message}`;
+    resultDiv.className = 'test-result error';
+  } finally {
+    testButton.textContent = 'Tester connexion';
+    testButton.disabled = false;
+    resultDiv.classList.remove('hidden');
+  }
 }
 
-function resetSearch() {
-  elements.participantInfo.style.display = 'none';
-  elements.searchInput.value = '';
-  elements.searchInput.focus();
-  showStatus('Prêt pour une nouvelle recherche', 'info');
+// Mise à jour du statut de connexion
+function updateConnectionStatus(message, type) {
+  const statusElement = document.getElementById('connectionStatus');
+  statusElement.textContent = message;
+  statusElement.className = `status status--${type}`;
 }
 
-// Gestion des messages de statut
-function showStatus(message, type = 'info') {
-  elements.statusMessage.textContent = message;
-  elements.statusMessage.className = `status-message ${type}`;
-  elements.statusMessage.classList.add('show');
-
-  setTimeout(() => {
-    elements.statusMessage.classList.remove('show');
-  }, 4000);
-}
-
-// Gestion des erreurs globales
-window.addEventListener('error', (e) => {
-  console.error('Erreur globale:', e.error);
-  showStatus('Une erreur est survenue', 'error');
-});
-
-// Nettoyage lors de la fermeture
+// Nettoyage à la fermeture
 window.addEventListener('beforeunload', () => {
-  if (cameraStarted && html5QrcodeScanner) {
-    html5QrcodeScanner.stop();
+  if (html5QrCode) {
+    html5QrCode.stop().catch(err => console.error('Erreur arrêt scanner:', err));
+  }
+
+  if (realtimeChannel) {
+    realtimeChannel.unsubscribe();
   }
 });
